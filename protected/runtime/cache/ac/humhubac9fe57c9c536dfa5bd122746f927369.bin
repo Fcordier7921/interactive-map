@@ -1,0 +1,21 @@
+a:2:{i:0;s:1359:"
+
+<a href="/index.php?r=activity%2Flink&id=3">
+
+    <div class="media">
+                    <!-- Show user image -->
+            <span class="pull-left"><img class="media-object img-rounded" src="/uploads/profile_image/9b6f1f06-b71d-4463-a6cc-1aa28c2dcf9e.jpg?m=1616744828" width="32" alt="Photo de profil de David Roberts" style="width: 32px; height: 32px" data-contentcontainer-id="3"></span>        
+        <!-- Show space image, if you are outside from a space -->
+                                    <div class="img-space pull-left space-profile-acronym-1 space-acronym" style=" background-color: #6fdbe8; width: 20px; height: 20px; font-size: 8.8px; padding: 3.6px 0; border-radius: 2px;" data-contentcontainer-id="2">ED</div><img class="img-space pull-left space-profile-image-1 img-rounded profile-user-photo hidden" src="/static/img/default_space.jpg" alt="Espace de bienvenue" style=" width: 20px; height: 20px" data-contentcontainer-id="2">            
+        
+        <div class="media-body text-break">
+
+            <!-- Show content -->
+            <strong>David Roberts</strong> a rejoint l'espace <strong>Espace de bienvenue</strong>            <br>
+
+            <!-- show time -->
+            <time class="tt time timeago" datetime="2021-03-26T07:47:07+00:00" title="26 mars 2021 - 07:47">26 mars 2021</time>        </div>
+    </div>
+
+</a>
+";i:1;N;}
