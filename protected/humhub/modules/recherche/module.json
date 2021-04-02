@@ -1,0 +1,12 @@
+{
+    "id": "recherche",
+    "name": "Recherche",
+    "description": "rechercher des membre du fablab prés de chez vous.",
+    "keywords": [
+    ],
+    "version": "0.1",
+    "humhub": {
+        "minVersion": "1.2"
+    },
+    "screenshots": ["assets/screen1.jpg"]
+}

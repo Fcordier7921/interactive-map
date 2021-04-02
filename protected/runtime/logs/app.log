@@ -3518,3 +3518,717 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1617004388.702
     'REQUEST_TIME' => 1617004388
 ]
+2021-03-29 09:46:38 [127.0.0.1][1][24ibjikrqi81tif5eojht6v843][error][Error] Error: Call to undefined function gisterJsFile() in C:\laragon\www\humhub-1.8.1\protected\humhub\modules\interactivemap\views\index\index.php:79
+Stack trace:
+#0 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\View.php(348): require()
+#1 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\laragon\\www\\...', Array)
+#2 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\laragon\\www\\...', Array, Object(myCompany\humhub\modules\interactivemap\controllers\IndexController))
+#3 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\Controller.php(410): yii\base\View->render('index', Array, Object(myCompany\humhub\modules\interactivemap\controllers\IndexController))
+#4 C:\laragon\www\humhub-1.8.1\protected\humhub\modules\interactivemap\controllers\IndexController.php(19): yii\base\Controller->render('index')
+#5 [internal function]: myCompany\humhub\modules\interactivemap\controllers\IndexController->actionIndex()
+#6 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#8 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction('', Array)
+#9 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('interactivemap/...', Array)
+#10 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(humhub\components\Request))
+#11 C:\laragon\www\humhub-1.8.1\index.php(25): yii\base\Application->run()
+#12 {main}
+2021-03-29 09:46:38 [127.0.0.1][1][24ibjikrqi81tif5eojht6v843][info][application] $_GET = [
+    'r' => 'interactivemap/index'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'humhub-1.8.1.test'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity=bd5314151b4deb45ea86e9eb4dbb526c51ffad9e2d6adcf24e20b9182035c60ea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A50%3A%22%5B1%2C%22ef74d7cc-b662-4f7b-8284-8ac1169b1ff6%22%2C2592000%5D%22%3B%7D; PHPSESSID=24ibjikrqi81tif5eojht6v843; _csrf=7a82cda6dd8d11bc6cebfda88c8ccc36184749883e121793756bec5b7bc0182aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22q2Nue_4H-DIl-k1Kmf-6-lLdF6oEZ_Iw%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\ImageMagick-7.0.11-Q16-HDRI;C:\\Program Files (x86)\\ImageMagick-7.0.10-Q16;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Symfony;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Users\\acs\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\acs\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\php;C:\\Users\\acs\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\acs\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.35 (Win64) OpenSSL/1.1.1d PHP/7.4.1'
+    'SERVER_NAME' => 'humhub-1.8.1.test'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/laragon/www/humhub-1.8.1/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/laragon/www/humhub-1.8.1/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/laragon/www/humhub-1.8.1/index.php'
+    'REMOTE_PORT' => '50216'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=interactivemap%2Findex'
+    'REQUEST_URI' => '/index.php?r=interactivemap%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1617011198.475
+    'REQUEST_TIME' => 1617011198
+]
+2021-03-29 09:48:15 [127.0.0.1][1][24ibjikrqi81tif5eojht6v843][error][ParseError] ParseError: syntax error, unexpected '::' (T_PAAMAYIM_NEKUDOTAYIM), expecting ';' or ',' in C:\laragon\www\humhub-1.8.1\protected\humhub\modules\interactivemap\views\index\index.php:6
+Stack trace:
+#0 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\laragon\\www\\...', Array)
+#1 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\laragon\\www\\...', Array, Object(myCompany\humhub\modules\interactivemap\controllers\IndexController))
+#2 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\Controller.php(410): yii\base\View->render('index', Array, Object(myCompany\humhub\modules\interactivemap\controllers\IndexController))
+#3 C:\laragon\www\humhub-1.8.1\protected\humhub\modules\interactivemap\controllers\IndexController.php(19): yii\base\Controller->render('index')
+#4 [internal function]: myCompany\humhub\modules\interactivemap\controllers\IndexController->actionIndex()
+#5 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#7 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction('', Array)
+#8 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('interactivemap/...', Array)
+#9 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(humhub\components\Request))
+#10 C:\laragon\www\humhub-1.8.1\index.php(25): yii\base\Application->run()
+#11 {main}
+2021-03-29 09:48:15 [127.0.0.1][1][24ibjikrqi81tif5eojht6v843][info][application] $_GET = [
+    'r' => 'interactivemap/index'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'humhub-1.8.1.test'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity=bd5314151b4deb45ea86e9eb4dbb526c51ffad9e2d6adcf24e20b9182035c60ea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A50%3A%22%5B1%2C%22ef74d7cc-b662-4f7b-8284-8ac1169b1ff6%22%2C2592000%5D%22%3B%7D; PHPSESSID=24ibjikrqi81tif5eojht6v843; _csrf=7a82cda6dd8d11bc6cebfda88c8ccc36184749883e121793756bec5b7bc0182aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22q2Nue_4H-DIl-k1Kmf-6-lLdF6oEZ_Iw%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\ImageMagick-7.0.11-Q16-HDRI;C:\\Program Files (x86)\\ImageMagick-7.0.10-Q16;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Symfony;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Users\\acs\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\acs\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\php;C:\\Users\\acs\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\acs\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.35 (Win64) OpenSSL/1.1.1d PHP/7.4.1'
+    'SERVER_NAME' => 'humhub-1.8.1.test'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/laragon/www/humhub-1.8.1/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/laragon/www/humhub-1.8.1/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/laragon/www/humhub-1.8.1/index.php'
+    'REMOTE_PORT' => '50280'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=interactivemap%2Findex'
+    'REQUEST_URI' => '/index.php?r=interactivemap%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1617011295.377
+    'REQUEST_TIME' => 1617011295
+]
+2021-03-29 09:50:38 [127.0.0.1][1][24ibjikrqi81tif5eojht6v843][error][Error] Error: Call to undefined function gisterJsFile() in C:\laragon\www\humhub-1.8.1\protected\humhub\modules\interactivemap\views\index\index.php:78
+Stack trace:
+#0 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\View.php(348): require()
+#1 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\laragon\\www\\...', Array)
+#2 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\laragon\\www\\...', Array, Object(myCompany\humhub\modules\interactivemap\controllers\IndexController))
+#3 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\Controller.php(410): yii\base\View->render('index', Array, Object(myCompany\humhub\modules\interactivemap\controllers\IndexController))
+#4 C:\laragon\www\humhub-1.8.1\protected\humhub\modules\interactivemap\controllers\IndexController.php(19): yii\base\Controller->render('index')
+#5 [internal function]: myCompany\humhub\modules\interactivemap\controllers\IndexController->actionIndex()
+#6 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#8 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction('', Array)
+#9 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('interactivemap/...', Array)
+#10 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(humhub\components\Request))
+#11 C:\laragon\www\humhub-1.8.1\index.php(25): yii\base\Application->run()
+#12 {main}
+2021-03-29 09:50:37 [127.0.0.1][1][24ibjikrqi81tif5eojht6v843][info][application] $_GET = [
+    'r' => 'interactivemap/index'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'humhub-1.8.1.test'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity=bd5314151b4deb45ea86e9eb4dbb526c51ffad9e2d6adcf24e20b9182035c60ea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A50%3A%22%5B1%2C%22ef74d7cc-b662-4f7b-8284-8ac1169b1ff6%22%2C2592000%5D%22%3B%7D; PHPSESSID=24ibjikrqi81tif5eojht6v843; _csrf=7a82cda6dd8d11bc6cebfda88c8ccc36184749883e121793756bec5b7bc0182aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22q2Nue_4H-DIl-k1Kmf-6-lLdF6oEZ_Iw%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\ImageMagick-7.0.11-Q16-HDRI;C:\\Program Files (x86)\\ImageMagick-7.0.10-Q16;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Symfony;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Users\\acs\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\acs\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\php;C:\\Users\\acs\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\acs\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.35 (Win64) OpenSSL/1.1.1d PHP/7.4.1'
+    'SERVER_NAME' => 'humhub-1.8.1.test'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/laragon/www/humhub-1.8.1/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/laragon/www/humhub-1.8.1/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/laragon/www/humhub-1.8.1/index.php'
+    'REMOTE_PORT' => '50388'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=interactivemap%2Findex'
+    'REQUEST_URI' => '/index.php?r=interactivemap%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1617011437.897
+    'REQUEST_TIME' => 1617011437
+]
+2021-04-01 14:06:00 [127.0.0.1][1][94rkkm83q0buaupl4u5pem9s12][error][Error] Error: Call to undefined method Yii::app() in C:\laragon\www\humhub-1.8.1\protected\humhub\modules\interactivemap\views\index\index.php:18
+Stack trace:
+#0 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\View.php(348): require()
+#1 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\laragon\\www\\...', Array)
+#2 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\laragon\\www\\...', Array, Object(myCompany\humhub\modules\interactivemap\controllers\IndexController))
+#3 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\Controller.php(410): yii\base\View->render('index', Array, Object(myCompany\humhub\modules\interactivemap\controllers\IndexController))
+#4 C:\laragon\www\humhub-1.8.1\protected\humhub\modules\interactivemap\controllers\IndexController.php(19): yii\base\Controller->render('index')
+#5 [internal function]: myCompany\humhub\modules\interactivemap\controllers\IndexController->actionIndex()
+#6 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#8 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction('', Array)
+#9 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('interactivemap/...', Array)
+#10 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(humhub\components\Request))
+#11 C:\laragon\www\humhub-1.8.1\index.php(25): yii\base\Application->run()
+#12 {main}
+2021-04-01 14:06:00 [127.0.0.1][1][94rkkm83q0buaupl4u5pem9s12][info][application] $_GET = [
+    'r' => 'interactivemap/index'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'humhub-1.8.1.test'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity=bd5314151b4deb45ea86e9eb4dbb526c51ffad9e2d6adcf24e20b9182035c60ea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A50%3A%22%5B1%2C%22ef74d7cc-b662-4f7b-8284-8ac1169b1ff6%22%2C2592000%5D%22%3B%7D; PHPSESSID=94rkkm83q0buaupl4u5pem9s12; _csrf=ad2269c32ce15524d51e175224bba4e65c8d906f3d6607eb13895d95aa36489ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22B2N2BDHWtBjfTt981N-UEK-N9yHC_0xd%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\ImageMagick-7.0.11-Q16-HDRI;C:\\Program Files (x86)\\ImageMagick-7.0.10-Q16;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Symfony;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Users\\acs\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\acs\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\php;C:\\Users\\acs\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\acs\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.35 (Win64) OpenSSL/1.1.1d PHP/7.4.1'
+    'SERVER_NAME' => 'humhub-1.8.1.test'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/laragon/www/humhub-1.8.1/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/laragon/www/humhub-1.8.1/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/laragon/www/humhub-1.8.1/index.php'
+    'REMOTE_PORT' => '53569'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=interactivemap%2Findex'
+    'REQUEST_URI' => '/index.php?r=interactivemap%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1617285960.251
+    'REQUEST_TIME' => 1617285960
+]
+2021-04-01 14:30:15 [127.0.0.1][1][94rkkm83q0buaupl4u5pem9s12][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: app in C:\laragon\www\humhub-1.8.1\protected\humhub\modules\interactivemap\views\index\index.php:38
+Stack trace:
+#0 C:\laragon\www\humhub-1.8.1\protected\humhub\modules\interactivemap\views\index\index.php(38): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 38, Array)
+#1 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\View.php(348): require('C:\\laragon\\www\\...')
+#2 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\laragon\\www\\...', Array)
+#3 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\laragon\\www\\...', Array, Object(myCompany\humhub\modules\interactivemap\controllers\IndexController))
+#4 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\Controller.php(410): yii\base\View->render('index', Array, Object(myCompany\humhub\modules\interactivemap\controllers\IndexController))
+#5 C:\laragon\www\humhub-1.8.1\protected\humhub\modules\interactivemap\controllers\IndexController.php(19): yii\base\Controller->render('index')
+#6 [internal function]: myCompany\humhub\modules\interactivemap\controllers\IndexController->actionIndex()
+#7 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#9 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction('', Array)
+#10 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('interactivemap/...', Array)
+#11 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(humhub\components\Request))
+#12 C:\laragon\www\humhub-1.8.1\index.php(25): yii\base\Application->run()
+#13 {main}
+2021-04-01 14:30:14 [127.0.0.1][1][94rkkm83q0buaupl4u5pem9s12][info][application] $_GET = [
+    'r' => 'interactivemap/index'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'humhub-1.8.1.test'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity=bd5314151b4deb45ea86e9eb4dbb526c51ffad9e2d6adcf24e20b9182035c60ea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A50%3A%22%5B1%2C%22ef74d7cc-b662-4f7b-8284-8ac1169b1ff6%22%2C2592000%5D%22%3B%7D; PHPSESSID=94rkkm83q0buaupl4u5pem9s12; _csrf=ad2269c32ce15524d51e175224bba4e65c8d906f3d6607eb13895d95aa36489ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22B2N2BDHWtBjfTt981N-UEK-N9yHC_0xd%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\ImageMagick-7.0.11-Q16-HDRI;C:\\Program Files (x86)\\ImageMagick-7.0.10-Q16;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Symfony;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Users\\acs\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\acs\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\php;C:\\Users\\acs\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\acs\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.35 (Win64) OpenSSL/1.1.1d PHP/7.4.1'
+    'SERVER_NAME' => 'humhub-1.8.1.test'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/laragon/www/humhub-1.8.1/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/laragon/www/humhub-1.8.1/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/laragon/www/humhub-1.8.1/index.php'
+    'REMOTE_PORT' => '53828'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=interactivemap%2Findex'
+    'REQUEST_URI' => '/index.php?r=interactivemap%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1617287414.856
+    'REQUEST_TIME' => 1617287414
+]
+2021-04-02 07:22:27 [127.0.0.1][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined offset: 0 in C:\laragon\www\humhub-1.8.1\protected\humhub\components\ModuleManager.php:213
+Stack trace:
+#0 C:\laragon\www\humhub-1.8.1\protected\humhub\components\ModuleManager.php(213): yii\base\ErrorHandler->handleError(8, 'Undefined offse...', 'C:\\laragon\\www\\...', 213, Array)
+#1 C:\laragon\www\humhub-1.8.1\protected\humhub\components\ModuleManager.php(128): humhub\components\ModuleManager->register('C:\\laragon\\www\\...', Array)
+#2 C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php(35): humhub\components\ModuleManager->registerBulk(Array)
+#3 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\Application.php(333): humhub\components\bootstrap\ModuleAutoLoader->bootstrap(Object(humhub\components\Application))
+#4 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\web\Application.php(70): yii\base\Application->bootstrap()
+#5 C:\laragon\www\humhub-1.8.1\protected\humhub\components\Application.php(46): yii\web\Application->bootstrap()
+#6 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\Application.php(279): humhub\components\Application->bootstrap()
+#7 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\base\Application->init()
+#8 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\Application.php(212): yii\base\BaseObject->__construct(Array)
+#9 C:\laragon\www\humhub-1.8.1\index.php(25): yii\base\Application->__construct(Array)
+#10 {main}
+2021-04-02 07:22:27 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'live/poll'
+    'last' => '1617348101'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'humhub-1.8.1.test'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_X_CSRF_TOKEN' => 'NJ5lSgoidXyRpAXEvi0hEOfX3KmtB4NFnPlWopwq6OUFxyolb08eLtziZLL3ZE96qpWk2Psx9XffoD3o9Xqipg=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://humhub-1.8.1.test/index.php?r=interactivemap%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity=bd5314151b4deb45ea86e9eb4dbb526c51ffad9e2d6adcf24e20b9182035c60ea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A50%3A%22%5B1%2C%22ef74d7cc-b662-4f7b-8284-8ac1169b1ff6%22%2C2592000%5D%22%3B%7D; PHPSESSID=f6f2ar945rheb09qk403nhp047; _csrf=0d6dd5a14b36719f882ff88210457a1f0ab79b3143dab3f42629672b9ee8bb48a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221YOoemkRMFavIInjMBxqV6v2CYkJiPJC%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\ImageMagick-7.0.11-Q16-HDRI;C:\\Program Files (x86)\\ImageMagick-7.0.10-Q16;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Symfony;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Users\\acs\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\acs\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\php;C:\\Users\\acs\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\acs\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.35 (Win64) OpenSSL/1.1.1d PHP/7.4.1'
+    'SERVER_NAME' => 'humhub-1.8.1.test'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/laragon/www/humhub-1.8.1/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/laragon/www/humhub-1.8.1/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/laragon/www/humhub-1.8.1/index.php'
+    'REMOTE_PORT' => '58273'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=live%2Fpoll&last=1617348101'
+    'REQUEST_URI' => '/index.php?r=live%2Fpoll&last=1617348101'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1617348147.486
+    'REQUEST_TIME' => 1617348147
+]
+2021-04-02 07:34:05 [127.0.0.1][1][f6f2ar945rheb09qk403nhp047][error][Error] Error: Class 'myCompany\humhub\modules\membersearch\humhub\modules\content\components\ContentContainerModule' not found in C:\laragon\www\humhub-1.8.1\protected\humhub\modules\membersearch\Module.php:10
+Stack trace:
+#0 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\BaseYii.php(293): include()
+#1 [internal function]: yii\BaseYii::autoload('myCompany\\humhu...')
+#2 [internal function]: spl_autoload_call('myCompany\\humhu...')
+#3 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\di\Container.php(508): ReflectionClass->__construct('myCompany\\humhu...')
+#4 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\di\Container.php(386): yii\di\Container->getDependencies('myCompany\\humhu...')
+#5 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\di\Container.php(171): yii\di\Container->build('myCompany\\humhu...', Array, Array)
+#6 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\BaseYii.php(345): yii\di\Container->get('myCompany\\humhu...', Array)
+#7 C:\laragon\www\humhub-1.8.1\protected\humhub\components\ModuleManager.php(331): yii\BaseYii::createObject('myCompany\\humhu...', Array)
+#8 C:\laragon\www\humhub-1.8.1\protected\humhub\components\ModuleManager.php(262): humhub\components\ModuleManager->getModule('membersearch')
+#9 C:\laragon\www\humhub-1.8.1\protected\humhub\modules\admin\controllers\ModuleController.php(65): humhub\components\ModuleManager->getModules()
+#10 [internal function]: humhub\modules\admin\controllers\ModuleController->actionList()
+#11 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#12 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#13 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction('list', Array)
+#14 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('admin/module/li...', Array)
+#15 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(humhub\components\Request))
+#16 C:\laragon\www\humhub-1.8.1\index.php(25): yii\base\Application->run()
+#17 {main}
+2021-04-02 07:34:05 [127.0.0.1][1][f6f2ar945rheb09qk403nhp047][info][application] $_GET = [
+    'r' => 'admin/module/list'
+    '_pjax' => '#layout-content'
+    '_' => '1617348839532'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'humhub-1.8.1.test'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html, */*; q=0.01'
+    'HTTP_X_CSRF_TOKEN' => 'GjVaoR7orUWaEYr7Q7_NLBvVqg6QmZyhBRi5leTpkCwrbBXOe4XGF9dX640K9qNGVpfSf8av6pNGQdLfjbnabw=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_X_PJAX' => 'true'
+    'HTTP_X_PJAX_CONTAINER' => '#layout-content'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_REFERER' => 'http://humhub-1.8.1.test/index.php?r=admin%2Fmodule'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity=bd5314151b4deb45ea86e9eb4dbb526c51ffad9e2d6adcf24e20b9182035c60ea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A50%3A%22%5B1%2C%22ef74d7cc-b662-4f7b-8284-8ac1169b1ff6%22%2C2592000%5D%22%3B%7D; PHPSESSID=f6f2ar945rheb09qk403nhp047; _csrf=0d6dd5a14b36719f882ff88210457a1f0ab79b3143dab3f42629672b9ee8bb48a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221YOoemkRMFavIInjMBxqV6v2CYkJiPJC%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\ImageMagick-7.0.11-Q16-HDRI;C:\\Program Files (x86)\\ImageMagick-7.0.10-Q16;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Symfony;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Users\\acs\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\acs\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\php;C:\\Users\\acs\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\acs\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.35 (Win64) OpenSSL/1.1.1d PHP/7.4.1'
+    'SERVER_NAME' => 'humhub-1.8.1.test'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/laragon/www/humhub-1.8.1/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/laragon/www/humhub-1.8.1/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/laragon/www/humhub-1.8.1/index.php'
+    'REMOTE_PORT' => '58668'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fmodule%2Flist&_pjax=%23layout-content&_=1617348839532'
+    'REQUEST_URI' => '/index.php?r=admin%2Fmodule%2Flist&_pjax=%23layout-content&_=1617348839532'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1617348845.195
+    'REQUEST_TIME' => 1617348845
+]
+2021-04-02 07:34:05 [127.0.0.1][1][f6f2ar945rheb09qk403nhp047][error][Error] Error: Class 'myCompany\humhub\modules\membersearch\humhub\modules\content\components\ContentContainerModule' not found in C:\laragon\www\humhub-1.8.1\protected\humhub\modules\membersearch\Module.php:10
+Stack trace:
+#0 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\BaseYii.php(293): include()
+#1 [internal function]: yii\BaseYii::autoload('myCompany\\humhu...')
+#2 [internal function]: spl_autoload_call('myCompany\\humhu...')
+#3 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\di\Container.php(508): ReflectionClass->__construct('myCompany\\humhu...')
+#4 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\di\Container.php(386): yii\di\Container->getDependencies('myCompany\\humhu...')
+#5 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\di\Container.php(171): yii\di\Container->build('myCompany\\humhu...', Array, Array)
+#6 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\BaseYii.php(345): yii\di\Container->get('myCompany\\humhu...', Array)
+#7 C:\laragon\www\humhub-1.8.1\protected\humhub\components\ModuleManager.php(331): yii\BaseYii::createObject('myCompany\\humhu...', Array)
+#8 C:\laragon\www\humhub-1.8.1\protected\humhub\components\ModuleManager.php(262): humhub\components\ModuleManager->getModule('membersearch')
+#9 C:\laragon\www\humhub-1.8.1\protected\humhub\modules\admin\controllers\ModuleController.php(65): humhub\components\ModuleManager->getModules()
+#10 [internal function]: humhub\modules\admin\controllers\ModuleController->actionList()
+#11 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#12 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#13 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction('list', Array)
+#14 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('admin/module/li...', Array)
+#15 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(humhub\components\Request))
+#16 C:\laragon\www\humhub-1.8.1\index.php(25): yii\base\Application->run()
+#17 {main}
+2021-04-02 07:34:05 [127.0.0.1][1][f6f2ar945rheb09qk403nhp047][info][application] $_GET = [
+    'r' => 'admin/module/list'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'humhub-1.8.1.test'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://humhub-1.8.1.test/index.php?r=admin%2Fuser%2Flist'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity=bd5314151b4deb45ea86e9eb4dbb526c51ffad9e2d6adcf24e20b9182035c60ea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A50%3A%22%5B1%2C%22ef74d7cc-b662-4f7b-8284-8ac1169b1ff6%22%2C2592000%5D%22%3B%7D; PHPSESSID=f6f2ar945rheb09qk403nhp047; _csrf=0d6dd5a14b36719f882ff88210457a1f0ab79b3143dab3f42629672b9ee8bb48a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221YOoemkRMFavIInjMBxqV6v2CYkJiPJC%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\ImageMagick-7.0.11-Q16-HDRI;C:\\Program Files (x86)\\ImageMagick-7.0.10-Q16;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Symfony;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Users\\acs\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\acs\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\php;C:\\Users\\acs\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\acs\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.35 (Win64) OpenSSL/1.1.1d PHP/7.4.1'
+    'SERVER_NAME' => 'humhub-1.8.1.test'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/laragon/www/humhub-1.8.1/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/laragon/www/humhub-1.8.1/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/laragon/www/humhub-1.8.1/index.php'
+    'REMOTE_PORT' => '58681'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fmodule%2Flist'
+    'REQUEST_URI' => '/index.php?r=admin%2Fmodule%2Flist'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1617348845.707
+    'REQUEST_TIME' => 1617348845
+]
+2021-04-02 07:36:35 [127.0.0.1][1][f6f2ar945rheb09qk403nhp047][error][Error] Error: Class 'myCompany\humhub\modules\membersearch\humhub\modules\content\components\ContentContainerModule' not found in C:\laragon\www\humhub-1.8.1\protected\humhub\modules\membersearch\Module.php:11
+Stack trace:
+#0 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\BaseYii.php(293): include()
+#1 [internal function]: yii\BaseYii::autoload('myCompany\\humhu...')
+#2 [internal function]: spl_autoload_call('myCompany\\humhu...')
+#3 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\di\Container.php(508): ReflectionClass->__construct('myCompany\\humhu...')
+#4 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\di\Container.php(386): yii\di\Container->getDependencies('myCompany\\humhu...')
+#5 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\di\Container.php(171): yii\di\Container->build('myCompany\\humhu...', Array, Array)
+#6 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\BaseYii.php(345): yii\di\Container->get('myCompany\\humhu...', Array)
+#7 C:\laragon\www\humhub-1.8.1\protected\humhub\components\ModuleManager.php(331): yii\BaseYii::createObject('myCompany\\humhu...', Array)
+#8 C:\laragon\www\humhub-1.8.1\protected\humhub\components\ModuleManager.php(262): humhub\components\ModuleManager->getModule('membersearch')
+#9 C:\laragon\www\humhub-1.8.1\protected\humhub\modules\admin\controllers\ModuleController.php(65): humhub\components\ModuleManager->getModules()
+#10 [internal function]: humhub\modules\admin\controllers\ModuleController->actionList()
+#11 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#12 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#13 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction('list', Array)
+#14 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('admin/module/li...', Array)
+#15 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(humhub\components\Request))
+#16 C:\laragon\www\humhub-1.8.1\index.php(25): yii\base\Application->run()
+#17 {main}
+2021-04-02 07:36:35 [127.0.0.1][1][f6f2ar945rheb09qk403nhp047][info][application] $_GET = [
+    'r' => 'admin/module/list'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'humhub-1.8.1.test'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://humhub-1.8.1.test/index.php?r=admin%2Fmodule'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity=bd5314151b4deb45ea86e9eb4dbb526c51ffad9e2d6adcf24e20b9182035c60ea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A50%3A%22%5B1%2C%22ef74d7cc-b662-4f7b-8284-8ac1169b1ff6%22%2C2592000%5D%22%3B%7D; PHPSESSID=f6f2ar945rheb09qk403nhp047; _csrf=0d6dd5a14b36719f882ff88210457a1f0ab79b3143dab3f42629672b9ee8bb48a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221YOoemkRMFavIInjMBxqV6v2CYkJiPJC%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\ImageMagick-7.0.11-Q16-HDRI;C:\\Program Files (x86)\\ImageMagick-7.0.10-Q16;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Symfony;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Users\\acs\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\acs\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\php;C:\\Users\\acs\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\acs\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.35 (Win64) OpenSSL/1.1.1d PHP/7.4.1'
+    'SERVER_NAME' => 'humhub-1.8.1.test'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/laragon/www/humhub-1.8.1/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/laragon/www/humhub-1.8.1/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/laragon/www/humhub-1.8.1/index.php'
+    'REMOTE_PORT' => '58718'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fmodule%2Flist'
+    'REQUEST_URI' => '/index.php?r=admin%2Fmodule%2Flist'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1617348995.045
+    'REQUEST_TIME' => 1617348995
+]
+2021-04-02 07:39:27 [127.0.0.1][1][f6f2ar945rheb09qk403nhp047][error][Error] Error: Class 'myCompany\humhub\modules\recherche\humhub\modules\content\components\ContentContainerModule' not found in C:\laragon\www\humhub-1.8.1\protected\humhub\modules\recherche\Module.php:11
+Stack trace:
+#0 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\BaseYii.php(293): include()
+#1 [internal function]: yii\BaseYii::autoload('myCompany\\humhu...')
+#2 [internal function]: spl_autoload_call('myCompany\\humhu...')
+#3 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\di\Container.php(508): ReflectionClass->__construct('myCompany\\humhu...')
+#4 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\di\Container.php(386): yii\di\Container->getDependencies('myCompany\\humhu...')
+#5 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\di\Container.php(171): yii\di\Container->build('myCompany\\humhu...', Array, Array)
+#6 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\BaseYii.php(345): yii\di\Container->get('myCompany\\humhu...', Array)
+#7 C:\laragon\www\humhub-1.8.1\protected\humhub\components\ModuleManager.php(331): yii\BaseYii::createObject('myCompany\\humhu...', Array)
+#8 C:\laragon\www\humhub-1.8.1\protected\humhub\components\ModuleManager.php(262): humhub\components\ModuleManager->getModule('recherche')
+#9 C:\laragon\www\humhub-1.8.1\protected\humhub\modules\admin\controllers\ModuleController.php(65): humhub\components\ModuleManager->getModules()
+#10 [internal function]: humhub\modules\admin\controllers\ModuleController->actionList()
+#11 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#12 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#13 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction('list', Array)
+#14 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('admin/module/li...', Array)
+#15 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(humhub\components\Request))
+#16 C:\laragon\www\humhub-1.8.1\index.php(25): yii\base\Application->run()
+#17 {main}
+2021-04-02 07:39:27 [127.0.0.1][1][f6f2ar945rheb09qk403nhp047][info][application] $_GET = [
+    'r' => 'admin/module/list'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'humhub-1.8.1.test'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://humhub-1.8.1.test/index.php?r=admin%2Fmodule%2Flist'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity=bd5314151b4deb45ea86e9eb4dbb526c51ffad9e2d6adcf24e20b9182035c60ea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A50%3A%22%5B1%2C%22ef74d7cc-b662-4f7b-8284-8ac1169b1ff6%22%2C2592000%5D%22%3B%7D; PHPSESSID=f6f2ar945rheb09qk403nhp047; _csrf=0d6dd5a14b36719f882ff88210457a1f0ab79b3143dab3f42629672b9ee8bb48a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221YOoemkRMFavIInjMBxqV6v2CYkJiPJC%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\ImageMagick-7.0.11-Q16-HDRI;C:\\Program Files (x86)\\ImageMagick-7.0.10-Q16;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Symfony;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Users\\acs\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\acs\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\php;C:\\Users\\acs\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\acs\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.35 (Win64) OpenSSL/1.1.1d PHP/7.4.1'
+    'SERVER_NAME' => 'humhub-1.8.1.test'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/laragon/www/humhub-1.8.1/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/laragon/www/humhub-1.8.1/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/laragon/www/humhub-1.8.1/index.php'
+    'REMOTE_PORT' => '58747'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fmodule%2Flist'
+    'REQUEST_URI' => '/index.php?r=admin%2Fmodule%2Flist'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1617349167.49
+    'REQUEST_TIME' => 1617349167
+]
+2021-04-02 07:54:10 [127.0.0.1][1][f6f2ar945rheb09qk403nhp047][error][ParseError] ParseError: syntax error, unexpected 'html' (T_STRING), expecting ';' or ',' in C:\laragon\www\humhub-1.8.1\protected\humhub\modules\recherche\views\index\index.php:19
+Stack trace:
+#0 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\laragon\\www\\...', Array)
+#1 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\laragon\\www\\...', Array, Object(myCompany\humhub\modules\recherche\controllers\IndexController))
+#2 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\Controller.php(410): yii\base\View->render('index', Array, Object(myCompany\humhub\modules\recherche\controllers\IndexController))
+#3 C:\laragon\www\humhub-1.8.1\protected\humhub\modules\recherche\controllers\IndexController.php(19): yii\base\Controller->render('index')
+#4 [internal function]: myCompany\humhub\modules\recherche\controllers\IndexController->actionIndex()
+#5 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#7 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction('', Array)
+#8 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('recherche/index', Array)
+#9 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(humhub\components\Request))
+#10 C:\laragon\www\humhub-1.8.1\index.php(25): yii\base\Application->run()
+#11 {main}
+2021-04-02 07:54:10 [127.0.0.1][1][f6f2ar945rheb09qk403nhp047][info][application] $_GET = [
+    'r' => 'recherche/index'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'humhub-1.8.1.test'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://humhub-1.8.1.test/index.php?r=admin%2Fmodule%2Flist'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity=bd5314151b4deb45ea86e9eb4dbb526c51ffad9e2d6adcf24e20b9182035c60ea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A50%3A%22%5B1%2C%22ef74d7cc-b662-4f7b-8284-8ac1169b1ff6%22%2C2592000%5D%22%3B%7D; PHPSESSID=f6f2ar945rheb09qk403nhp047; _csrf=0d6dd5a14b36719f882ff88210457a1f0ab79b3143dab3f42629672b9ee8bb48a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221YOoemkRMFavIInjMBxqV6v2CYkJiPJC%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\ImageMagick-7.0.11-Q16-HDRI;C:\\Program Files (x86)\\ImageMagick-7.0.10-Q16;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Symfony;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Users\\acs\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\acs\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\php;C:\\Users\\acs\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\acs\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.35 (Win64) OpenSSL/1.1.1d PHP/7.4.1'
+    'SERVER_NAME' => 'humhub-1.8.1.test'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/laragon/www/humhub-1.8.1/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/laragon/www/humhub-1.8.1/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/laragon/www/humhub-1.8.1/index.php'
+    'REMOTE_PORT' => '59064'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=recherche%2Findex'
+    'REQUEST_URI' => '/index.php?r=recherche%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1617350050.595
+    'REQUEST_TIME' => 1617350050
+]
+2021-04-02 07:54:36 [127.0.0.1][1][f6f2ar945rheb09qk403nhp047][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: humhub\widgets\Button::action in C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\Component.php:155
+Stack trace:
+#0 C:\laragon\www\humhub-1.8.1\protected\humhub\modules\recherche\views\index\index.php(19): yii\base\Component->__get('action')
+#1 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\View.php(348): require('C:\\laragon\\www\\...')
+#2 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\laragon\\www\\...', Array)
+#3 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\laragon\\www\\...', Array, Object(myCompany\humhub\modules\recherche\controllers\IndexController))
+#4 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\Controller.php(410): yii\base\View->render('index', Array, Object(myCompany\humhub\modules\recherche\controllers\IndexController))
+#5 C:\laragon\www\humhub-1.8.1\protected\humhub\modules\recherche\controllers\IndexController.php(19): yii\base\Controller->render('index')
+#6 [internal function]: myCompany\humhub\modules\recherche\controllers\IndexController->actionIndex()
+#7 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#9 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction('', Array)
+#10 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('recherche/index', Array)
+#11 C:\laragon\www\humhub-1.8.1\protected\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(humhub\components\Request))
+#12 C:\laragon\www\humhub-1.8.1\index.php(25): yii\base\Application->run()
+#13 {main}
+2021-04-02 07:54:35 [127.0.0.1][1][f6f2ar945rheb09qk403nhp047][info][application] $_GET = [
+    'r' => 'recherche/index'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'humhub-1.8.1.test'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://humhub-1.8.1.test/index.php?r=admin%2Fmodule%2Flist'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity=bd5314151b4deb45ea86e9eb4dbb526c51ffad9e2d6adcf24e20b9182035c60ea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A50%3A%22%5B1%2C%22ef74d7cc-b662-4f7b-8284-8ac1169b1ff6%22%2C2592000%5D%22%3B%7D; PHPSESSID=f6f2ar945rheb09qk403nhp047; _csrf=0d6dd5a14b36719f882ff88210457a1f0ab79b3143dab3f42629672b9ee8bb48a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221YOoemkRMFavIInjMBxqV6v2CYkJiPJC%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\ImageMagick-7.0.11-Q16-HDRI;C:\\Program Files (x86)\\ImageMagick-7.0.10-Q16;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Symfony;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Users\\acs\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\acs\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\php;C:\\Users\\acs\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\acs\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.35 (Win64) OpenSSL/1.1.1d PHP/7.4.1'
+    'SERVER_NAME' => 'humhub-1.8.1.test'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/laragon/www/humhub-1.8.1/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/laragon/www/humhub-1.8.1/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/laragon/www/humhub-1.8.1/index.php'
+    'REMOTE_PORT' => '59083'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=recherche%2Findex'
+    'REQUEST_URI' => '/index.php?r=recherche%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1617350075.81
+    'REQUEST_TIME' => 1617350075
+]
