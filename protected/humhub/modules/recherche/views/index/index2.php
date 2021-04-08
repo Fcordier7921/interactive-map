@@ -450,10 +450,24 @@ AppAsset::register($this);
                     .then(res => res.json())
                     .then(data => {
                         console.log(data)
-                        lat = data.results[0].locations[0].latLng.lat;
-                        long = data.results[0].locations[0].latLng.lng;
+                        this.lat = data.results[0].locations[0].latLng.lat;
+                        this.long = data.results[0].locations[0].latLng.lng;
 
-                        let marker = map.addMarker(lat, long, item.dataset.nom);
+                        
+                    })
+
+                // $.get(url, callBackGetSuccess).done(function () {
+
+                // }).fail(function () {
+                //     alert("error");
+                // })
+                // .always(function () {
+
+                // });
+
+                // console.log("latitude out de la fonction", lat);
+
+                let marker = map.addMarker(lat, long, item.dataset.nom);
                         item.addEventListener('mouseover', function() {
                             if (hoverMarker !== null) {
                                 hoverMarker.unsetActive();
@@ -478,20 +492,6 @@ AppAsset::register($this);
                                 activeMarker.resetContent();
                             }
                         })
-                    })
-
-                // $.get(url, callBackGetSuccess).done(function () {
-
-                // }).fail(function () {
-                //     alert("error");
-                // })
-                // .always(function () {
-
-                // });
-
-                // console.log("latitude out de la fonction", lat);
-
-
 
 
             })
