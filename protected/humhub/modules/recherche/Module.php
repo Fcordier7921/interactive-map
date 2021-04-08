@@ -2,6 +2,7 @@
 
 namespace myCompany\humhub\modules\recherche;
 
+
 use Yii;
 use yii\helpers\Url;
 use humhub\modules\content\components\ContentContainerActiveRecord;
@@ -63,4 +64,10 @@ class Module extends ContentContainerModule
     {
         return Yii::t('RechercheModule.base', 'recherche adhérent dans votre map');
     }
+
+
+   
 }
+
+
+

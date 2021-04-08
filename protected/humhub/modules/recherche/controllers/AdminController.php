@@ -3,7 +3,7 @@
 namespace myCompany\humhub\modules\recherche\controllers;
 
 use humhub\modules\admin\components\Controller;
-
+use yii\helpers\VarDumper;
 class AdminController extends Controller
 {
 
@@ -16,6 +16,7 @@ class AdminController extends Controller
     {
         return $this->render('index');
     }
+    
 
 }
 

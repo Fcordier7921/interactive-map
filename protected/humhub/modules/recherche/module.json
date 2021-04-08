@@ -8,5 +8,12 @@
     "humhub": {
         "minVersion": "1.2"
     },
-    "screenshots": ["assets/screen1.jpg"]
+    "screenshots": ["assets/screen1.jpg"],
+    "auteurs" : [ 
+        {
+            "nom" : "Frédéric CORDIER" , 
+            "email" : "f.cordier@codeur.online" , 
+            "role" : "Développeur" 
+        } 
+    ]   
 }

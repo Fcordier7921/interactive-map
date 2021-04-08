@@ -3,6 +3,11 @@
 namespace myCompany\humhub\modules\recherche\controllers;
 
 use humhub\components\Controller;
+use app\models\User;
+use app\models\UserQuery;
+use app\models\Profile;
+use yii\data\Pagination;
+use yii\helpers\VarDumper;
 
 class IndexController extends Controller
 {
@@ -16,7 +21,15 @@ class IndexController extends Controller
      */
     public function actionIndex()
     {
-        return $this->render('index');
+        $queryUser=User::find()->with('profile');
+        
+        $users=$queryUser->all();
+        // dd($users);
+
+        return $this->render('index', [
+            'users'=> $users,
+            
+        ]);
     }
 
 }

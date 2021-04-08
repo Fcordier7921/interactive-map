@@ -1,14 +1,24 @@
+
+    <?php
+use yii\helpers\Html;
+use yii\base\BootstrapInterface;
+use yii\widgets\LinkPager;
+use yii\bootstrap;
+use backend\assets\AppAssets;
+use humhub\assets\AppAsset;
+
+AppAsset::register($this);
+?>
     <style>
-    body{
-    background-color: #e5e5e5;
-}
+
 h1{
     text-align: center;
 }
 .map{
+    margin-top: 800rem;
     position: -webkit-sticky!important;
     position: sticky!important;
-    top: 0;
+    top: 100px;
     right: 0;
     left: 0;
     height: 100vh;
@@ -39,10 +49,10 @@ h1{
     border-top: 8px solid white;
 }
 .leaflet-popup-content-wrapper{
-    background: transparent;
-    color: inherit;
-    box-shadow: none;
-    text-align: inherit;
+    background: transparent!important;
+    color: inherit!important;
+    box-shadow: none!important;
+    text-align: inherit!important;
 }
 .leaflet-popup-tip-container{
     display: none;
@@ -50,7 +60,7 @@ h1{
 .leaflet-popup-content{
     text-align: inherit;
     color: inherit;
-    margin: 0;
+    margin: 0!important;
 }
 .is-active , .leaflet-popup:hover{
     background-color: #506ff5!important;
@@ -79,16 +89,18 @@ h1{
     }
   }
     </style>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    
+    
 
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css"
         integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
         crossorigin="" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css"
         href="https://unpkg.com/leaflet.markercluster@1.3.0/dist/MarkerCluster.css" />
     <link rel="stylesheet" type="text/css"
         href="https://unpkg.com/leaflet.markercluster@1.3.0/dist/MarkerCluster.Default.css" />
+        
     
     
 
@@ -100,40 +112,32 @@ h1{
     <div class="container-fluid">
             <div class="row">
                 <div class="list row col-12 col-lg-9 col-xl-7 m-0" id="documents">
-                    <?php 
-                    $nom=['Alain', 'Luka', 'Camille', 'Anais', 'Axel', 'Arthur', 'Evan', 'Clara', 'Emma', 'Clarance', 'Evan', 'Victor'];
-                    
-                    for($i=0; $i< count($nom); $i++){
+                    <?php foreach ($users as $user): ?>
 
-                        $lat=(mt_rand(702722, 812822));
-                        $long=(mt_rand(401833, 461933));
-                        $img=rand(1,4);
-                        
-                        echo "<div class='document  item js-marker col-12 col-md-3 my-2 mx-4 w-5' data-lat='46.$lat' data-lng='5.$long' data-nom='$nom[$i]'>
-                            <img class='col-12 col-md-20 img' src='/protected/humhub/modules/recherche/views/index/img/$img.jpg' alt='non'>
-                            <h4>adhérent $nom[$i] </h4>
+                        <div class='document  item js-marker col-12 col-md-3 my-2 mx-4 w-5' data-city='<?= Html::encode("{$user->profile->street} {$user->profile->zip} {$user->profile->city}") ?>'  data-nom='<?= Html::encode("{$user->profile->firstname} {$user->profile->lastname}") ?>'>
                             
+                            <?= Html::img("uploads/profile_image/{$user->guid}.jpg", ['alt' => 'My logo'])?>
+                            <h4 class="mb-3"><?= Html::encode("{$user->profile->firstname} {$user->profile->lastname}") ?>  </h4>
+                            
+                                
+                               <h6>Mes compétences: </h6> 
                                 <p>
-                                    Lorem $nom[$i] ipsum dolor sit amet consectetur adipisicing elit. Laborum dicta, labore ea impedit optio ab, enim inventore blanditiis natus itaque illo sit esse distinctio quasi iste? Iusto neque voluptatum consequuntur!
+                                <?= Html::encode("{$user->tags}") ?>   
                                 </p>
                             
-                    </div>";
-                    } ?>
-                        
-                    
-                </div>
+                        </div>
+                    <?php endforeach; ?>
+                </div>    
 
                 <div class='map col-12 col-md-5 m-0' id="map"></div>
-
+                   
 
             </div>
     </div>
-
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
-    </script>
-   
-    <script>/*!
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>
+<script>/*!
   * $script.js JS loader & dependency manager
   * https://github.com/ded/script.js
   * (c) Dustin Diaz 2014 | License MIT
@@ -223,24 +227,12 @@ if (!Array.from) {
 	}());
 }
 </script>
-<script>// traitement de la barre de recherche
-document.getElementById('search').addEventListener('keyup', function(e) {
-    var recherche = this.value.toLowerCase();
-    var documents = document.querySelectorAll('.document');
-    
-    Array.prototype.forEach.call(documents, function(document) {
-        
-        
-      // On a bien trouvé les termes de recherche.
-      if (document.innerHTML.toLowerCase().indexOf(recherche) > -1) {
-        document.style.display = 'block';
-        
-      } else {
-        document.style.display = 'none';
-      }
-      
-    });
-  });
+
+
+
+
+
+<script>
 
 
  //traitemant la carte et des marker 
@@ -326,9 +318,34 @@ const initMap= async function(){
     let map= new LeafletMap();
     let hoverMarker=null;
     let activeMarker= null;
+    
     await map.load($map);
-    Array.from(document.querySelectorAll('.js-marker')).forEach((item) => {
-        let marker = map.addMarker(item.dataset.lat, item.dataset.lng, item.dataset.nom );
+
+    Array.from(document.querySelectorAll('.js-marker')).forEach((item)  => {
+  
+        let city =item.dataset.city;
+        var lat= 46.802819;
+        var long= 5.451600;
+        var callBackGetSuccess =  function (data) {
+            console.log("donnees api", data);
+            lat= data.results[0].locations[0].latLng.lat;
+            long= data.results[0].locations[0].latLng.lng;
+            console.log(lat);
+        }
+        let url = "http://open.mapquestapi.com/geocoding/v1/address?key=p7SEPkMy7u1mNlD7jnfoU3KtcLKmdlco&location= "+city;
+
+        $.get(url, callBackGetSuccess).done(function () {
+
+        }).fail(function () {
+            alert("error");
+        })
+        .always(function () {
+
+        });
+
+        console.log("latitude out de la fonction", lat);
+
+        let marker = map.addMarker(lat, long, item.dataset.nom );
         item.addEventListener('mouseover', function(){
             if(hoverMarker !== null){
                 hoverMarker.unsetActive();
