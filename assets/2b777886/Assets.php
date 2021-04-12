@@ -29,5 +29,13 @@ class Assets extends AssetBundle
     public $js = [
         'js/humhub.recherche.js'
     ];
+    public $css =[
+        'css/style.css'
+    ];
+
+    public $depends =[
+        'yii\web\YiiAsset',
+        'yii\bootstrap\bootstrapAsset'
+    ];
 
 }

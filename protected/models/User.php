@@ -92,6 +92,7 @@ class User extends \yii\db\ActiveRecord
             [['username'], 'unique'],
             [['guid'], 'unique'],
             [['authclient_id'], 'unique'],
+            
            
         ];
     }

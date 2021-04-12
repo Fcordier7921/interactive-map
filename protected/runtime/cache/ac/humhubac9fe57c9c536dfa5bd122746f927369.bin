@@ -1,20 +1,20 @@
-a:2:{i:0;s:1359:"
+a:2:{i:0;s:1302:"
 
-<a href="/index.php?r=activity%2Flink&id=4">
+<a href="/index.php?r=activity%2Flink&id=15">
 
     <div class="media">
                     <!-- Show user image -->
-            <span class="pull-left"><img class="media-object img-rounded" src="/uploads/profile_image/0d32fe80-d79b-4d06-9402-3a5c0de7fd2e.jpg?m=1616744828" width="32" alt="Photo de profil de Sara Schuster" style="width: 32px; height: 32px" data-contentcontainer-id="4"></span>        
+            <span class="pull-left"><img class="media-object img-rounded" src="/static/img/default_user.jpg" width="32" alt="Photo de profil de yann Papy" style="width: 32px; height: 32px" data-contentcontainer-id="5"></span>        
         <!-- Show space image, if you are outside from a space -->
                                     <div class="img-space pull-left space-profile-acronym-1 space-acronym" style=" background-color: #6fdbe8; width: 20px; height: 20px; font-size: 8.8px; padding: 3.6px 0; border-radius: 2px;" data-contentcontainer-id="2">ED</div><img class="img-space pull-left space-profile-image-1 img-rounded profile-user-photo hidden" src="/static/img/default_space.jpg" alt="Espace de bienvenue" style=" width: 20px; height: 20px" data-contentcontainer-id="2">            
         
         <div class="media-body text-break">
 
             <!-- Show content -->
-            <strong>Sara Schuster</strong> a rejoint l'espace <strong>Espace de bienvenue</strong>            <br>
+            <strong>yann Papy</strong> a rejoint l'espace <strong>Espace de bienvenue</strong>            <br>
 
             <!-- show time -->
-            <time class="tt time timeago" datetime="2021-03-26T07:47:08+00:00" title="26 mars 2021 - 07:47">26 mars 2021</time>        </div>
+            <time class="tt time timeago" datetime="2021-04-08T09:19:26+00:00" title="8 avr. 2021 - 10:19">8 avr. 2021</time>        </div>
     </div>
 
 </a>
