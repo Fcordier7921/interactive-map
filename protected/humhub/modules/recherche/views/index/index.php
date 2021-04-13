@@ -162,6 +162,10 @@ AppAsset::register($this);
                                 <?= Html::encode("{$user->email}") ?>
                             </p>
                         </div>
+                        
+                        <div style="display: none;"><!--permet de rechercher sur les villes des adérent tout en n'affichen pas les adresse-->
+                        <p><?= Html::encode("{$user->profile->street}  {$user->profile->zip} {$user->profile->city}") ?></p>
+                        </div>
 
                     </div>
                 <?php endforeach; ?>
@@ -360,6 +364,24 @@ AppAsset::register($this);
 
 
     <script>
+        // traitement de la barre de recherche
+        document.getElementById('search').addEventListener('keyup', function(e) {
+            var recherche = this.value.toLowerCase();
+            var documents = document.querySelectorAll('.document');
+
+            Array.prototype.forEach.call(documents, function(document) {
+
+
+                // On a bien trouvé les termes de recherche.
+                if (document.innerHTML.toLowerCase().indexOf(recherche) > -1) {
+                    document.style.display = 'block';
+
+                } else {
+                    document.style.display = 'none';
+                }
+
+            });
+        });
         //traitemant la carte et des marker 
         let $map = document.querySelector('#map'); //selection de l
 
@@ -485,7 +507,6 @@ AppAsset::register($this);
                         activeMarker.resetContent();
                     }
                     marker.setContent(item.innerHTML);
-                    map.setZoom(14);
                     activeMarker = marker;
                 })
                 marker.addEventListener('mouseleave', function() {

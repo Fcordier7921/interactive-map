@@ -59,7 +59,7 @@ class IndexController extends Controller
             }
             curl_close($curl);
         }
-        // dd($users);
+        dd($users);
         // dd($dataLatLng);
 
         
