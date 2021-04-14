@@ -8,12 +8,15 @@
     "humhub": {
         "minVersion": "1.2"
     },
-    "screenshots": ["assets/screen1.jpg"],
+    "screenshots": ["assets/madeiniki.png"],
     "auteurs" : [ 
         {
             "nom" : "Frédéric CORDIER" , 
             "email" : "f.cordier@codeur.online" , 
             "role" : "Développeur" 
         } 
-    ]   
+    ],
+    "replace": {
+        "bower-asset/bootstrap": ">=4.5.2"
+    }  
 }

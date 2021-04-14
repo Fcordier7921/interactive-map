@@ -163,7 +163,7 @@ AppAsset::register($this);
                             </p>
                         </div>
                         
-                        <div style="display: none;"><!--permet de rechercher sur les villes des adérent tout en n'affichen pas les adresse-->
+                        <div style="display: none;"><!--permet de rechercher sur les villes des adérent tout en n'affichen pas les-->
                         <p><?= Html::encode("{$user->profile->street}  {$user->profile->zip} {$user->profile->city}") ?></p>
                         </div>
 

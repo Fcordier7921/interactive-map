@@ -36,7 +36,7 @@ class PostTags extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'skill' => 'Skill',
+            'skill' => 'compétence',
         ];
     }
 

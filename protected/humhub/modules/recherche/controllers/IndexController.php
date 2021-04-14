@@ -20,12 +20,9 @@ class IndexController extends Controller
     public function actionIndex()
     {
         $queryUser=User::find()->with('profile');
-
-        
-        
-        
+ 
         $users=$queryUser->all();
-
+        
         for($i=0; $i<count($users); $i++)
         {
             $curl=curl_init("http://open.mapquestapi.com/geocoding/v1/address?key=p7SEPkMy7u1mNlD7jnfoU3KtcLKmdlco&location=".$users[$i]->profile->street.' '.$users[$i]->profile->zip.' '.$users[$i]->profile->city);
@@ -59,7 +56,7 @@ class IndexController extends Controller
             }
             curl_close($curl);
         }
-        dd($users);
+        // dd($users);
         // dd($dataLatLng);
 
         

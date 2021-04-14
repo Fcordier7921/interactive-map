@@ -13,7 +13,10 @@ class Assets extends AssetBundle
      * @var string defines the path of your module assets
      */
     public $sourcePath = '@recherche/resources';
-
+    /**
+     * var string defines the path of your module assets
+     */
+    public $baseUrl = '@recherche/resources';
     /**
      * @var array defines where the js files are included into the page, note your custom js files should be included after the core files (which are included in head)
      */
@@ -27,7 +30,8 @@ class Assets extends AssetBundle
     ];
 
     public $js = [
-        'js/humhub.recherche.js'
+        'js/humhub.recherche.js',
+        
     ];
     public $css =[
         'css/style.css'
@@ -35,7 +39,7 @@ class Assets extends AssetBundle
 
     public $depends =[
         'yii\web\YiiAsset',
-        'yii\bootstrap\bootstrapAsset'
+        'yii\bootstrap4\BootstrapAsset',
     ];
-
+    
 }

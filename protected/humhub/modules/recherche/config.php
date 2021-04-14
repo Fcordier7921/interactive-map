@@ -10,7 +10,8 @@ return [
 	'class' => 'myCompany\humhub\modules\recherche\Module',
 	'namespace' => 'myCompany\humhub\modules\recherche',
 	
-	'events' => [
+	'events' =>
+	[
 		[
 			'class' => TopMenu::class,
 			'event' => TopMenu::EVENT_INIT,
@@ -23,4 +24,5 @@ return [
 		],
 		
 	],
+	
 ];

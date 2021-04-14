@@ -1,16 +1,22 @@
 <?php
 
+use app\models\PostTags;
 use humhub\libs\TimezoneHelper;
 use humhub\modules\user\helpers\AuthHelper;
 use yii\widgets\ActiveForm;
 use \humhub\compat\CHtml;
+use yii\helpers\ArrayHelper;
 ?>
 
 <?php $this->beginContent('@user/views/account/_userSettingsLayout.php') ?>
 
 <?php $form = ActiveForm::begin(['id' => 'basic-settings-form']); ?>
+<?php
+    $PostTagas= ArrayHelper::map($PostTagas, 'skill', 'skill')
+?>
+<?= ($form->field($model, 'tags')->checkboxList($PostTagas)); ?>
 
-<?= $form->field($model, 'tags'); ?>
+<button class="btn btn-primary" type="submit" data-ui-loader>ajoutr un Mots-clé</button>
 
 <?php if (count($languages) > 1) : ?>
     <?= $form->field($model, 'language')->dropDownList($languages, ['data-ui-select2' => '']); ?>
@@ -18,7 +24,7 @@ use \humhub\compat\CHtml;
 
 <?= $form->field($model, 'timeZone')->dropDownList(TimezoneHelper::generateList(), ['data-ui-select2' => '']); ?>
 
-<?php if (AuthHelper::isGuestAccessEnabled()): ?>
+<?php if (AuthHelper::isGuestAccessEnabled()) : ?>
 
     <?php
     echo $form->field($model, 'visibility')->dropDownList([

@@ -8,6 +8,7 @@
 
 namespace humhub\modules\user\controllers;
 
+use app\models\PostTags;
 use humhub\compat\HForm;
 use humhub\modules\user\authclient\interfaces\PrimaryClient;
 use humhub\modules\user\helpers\AuthHelper;
@@ -108,7 +109,7 @@ class AccountController extends BaseAccountController
     {
         /** @var User $user */
         $user = Yii::$app->user->getIdentity();
-
+        $PostTagas=PostTags::find()->all();//Retrieve information from the PostTags table
         $model = new \humhub\modules\user\models\forms\AccountSettings();
         $model->language = $user->language;
         if ($model->language == "") {
@@ -119,10 +120,11 @@ class AccountController extends BaseAccountController
             $model->timeZone = Yii::$app->settings->get('timeZone');
         }
 
+        // dd($model->tags);
         $model->tags = $user->tags;
         $model->show_introduction_tour = Yii::$app->getModule('tour')->settings->contentContainer($user)->get("hideTourPanel");
         $model->visibility = $user->visibility;
-
+       
         if ($model->load(Yii::$app->request->post()) && $model->validate()) {
             Yii::$app->getModule('tour')->settings->contentContainer($user)->set('hideTourPanel', $model->show_introduction_tour);
             $user->language = $model->language;
@@ -130,7 +132,7 @@ class AccountController extends BaseAccountController
             $user->time_zone = $model->timeZone;
             $user->visibility = $model->visibility;
             $user->save();
-
+            
             $this->view->saved();
             return $this->redirect(['edit-settings']);
         }
@@ -140,7 +142,11 @@ class AccountController extends BaseAccountController
         $col = new \Collator(Yii::$app->language);
         $col->asort($languages);
 
-        return $this->render('editSettings', ['model' => $model, 'languages' => $languages]);
+        return $this->render('editSettings', [
+            'model' => $model, 
+            'languages' => $languages,
+            'PostTagas' => $PostTagas
+            ]);
     }
 
     /**
