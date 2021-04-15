@@ -3,6 +3,8 @@
 use humhub\modules\ui\icon\widgets\Icon;
 use humhub\widgets\Tabs;
 use humhub\modules\user\models\ProfileFieldCategory;
+use humhub\widgets\Button;
+use PhpOffice\PhpSpreadsheet\Helper\Html;
 use yii\helpers\Url;
 
 $categoryItems = [];
@@ -21,7 +23,7 @@ $categoryItems[] = [
             'title' => Yii::t('AdminModule.user', 'Add new category'),
             'class' => 'tt'
         ],
-        ]),
+    ]),
     'encode' => false,
     'url' => Url::to(['edit-category'])
 ];
@@ -33,7 +35,8 @@ $categoryItems[] = [
     <div class="help-block">
         <?= Yii::t('AdminModule.user', 'Here you can create or edit profile categories and fields.'); ?>
     </div>
-
+    
+     <button url="<?= Url::to(['']);?>" class="btn btn-primary" type="submit" data-ui-loader>add skill</button>
     <?= Tabs::widget([
         'viewPath' => '@admin/views/user-profile/',
         'items' => $categoryItems

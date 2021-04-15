@@ -107,6 +107,7 @@ class AccountController extends BaseAccountController
      */
     public function actionEditSettings()
     {
+        
         /** @var User $user */
         $user = Yii::$app->user->getIdentity();
         $PostTagas=PostTags::find()->all();//Retrieve information from the PostTags table
@@ -119,8 +120,6 @@ class AccountController extends BaseAccountController
         if ($model->timeZone == "") {
             $model->timeZone = Yii::$app->settings->get('timeZone');
         }
-
-        // dd($model->tags);
         $model->tags = $user->tags;
         $model->show_introduction_tour = Yii::$app->getModule('tour')->settings->contentContainer($user)->get("hideTourPanel");
         $model->visibility = $user->visibility;
@@ -128,11 +127,14 @@ class AccountController extends BaseAccountController
         if ($model->load(Yii::$app->request->post()) && $model->validate()) {
             Yii::$app->getModule('tour')->settings->contentContainer($user)->set('hideTourPanel', $model->show_introduction_tour);
             $user->language = $model->language;
-            $user->tags = $model->tags;
+            
+            $tagsliste=$_POST['AccountSettings']['tags'];
+            $newtags=implode(", ", $tagsliste);
+            $user->tags = $newtags;
             $user->time_zone = $model->timeZone;
             $user->visibility = $model->visibility;
             $user->save();
-            
+
             $this->view->saved();
             return $this->redirect(['edit-settings']);
         }
@@ -482,5 +484,3 @@ class AccountController extends BaseAccountController
     }
 
 }
-
-?>

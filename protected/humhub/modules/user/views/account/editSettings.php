@@ -12,12 +12,10 @@ use yii\helpers\ArrayHelper;
 
 <?php $form = ActiveForm::begin(['id' => 'basic-settings-form']); ?>
 <?php
-    $PostTagas= ArrayHelper::map($PostTagas, 'skill', 'skill')
+    $PostTagas= ArrayHelper::map($PostTagas, 'skill', 'skill');  
 ?>
-<?= ($form->field($model, 'tags')->checkboxList($PostTagas)); ?>
-
-<button class="btn btn-primary" type="submit" data-ui-loader>ajoutr un Mots-clé</button>
-
+<?= ($form->field($model, 'tags')->checkboxList($PostTagas, ['multiple'=>'multiple']));  ?>
+<p>Si vos compétence ne figure pas dans la liste. Veuillez contacter l'administrateur du site.</p>
 <?php if (count($languages) > 1) : ?>
     <?= $form->field($model, 'language')->dropDownList($languages, ['data-ui-select2' => '']); ?>
 <?php endif; ?>

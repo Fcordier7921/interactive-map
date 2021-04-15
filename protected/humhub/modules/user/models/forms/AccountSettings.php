@@ -8,15 +8,19 @@
 
 namespace humhub\modules\user\models\forms;
 
+use app\models\PostTags;
+use app\models\User;
 use Yii;
+use yii\base\Model;
 
 /**
  * Form Model for changing basic account settings
  *
  * @since 0.9
  */
-class AccountSettings extends \yii\base\Model
+class AccountSettings extends Model
 {   
+    
     public $tags;
     public $language;
     public $show_introduction_tour;
@@ -29,6 +33,7 @@ class AccountSettings extends \yii\base\Model
     public function rules()
     {
         return [
+            
             [['show_introduction_tour'], 'boolean'],
             [['timeZone'], 'in', 'range' => \DateTimeZone::listIdentifiers()],
             ['language', 'in', 'range' => array_keys(Yii::$app->i18n->getAllowedLanguages())],
@@ -41,13 +46,15 @@ class AccountSettings extends \yii\base\Model
      */
     public function attributeLabels()
     {
+       
         return [
             
+            'tags'=>yii::t('UserModule.account', 'skill'),
             'language' => Yii::t('UserModule.account', 'Language'),
             'show_introduction_tour' => Yii::t('UserModule.account', 'Hide introduction tour panel on dashboard'),
             'timeZone' => Yii::t('UserModule.account', 'TimeZone'),
             'visibility' => Yii::t('UserModule.account', 'Profile visibility'),
         ];
     }
-
+  
 }

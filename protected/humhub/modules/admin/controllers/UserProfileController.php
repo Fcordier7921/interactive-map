@@ -8,9 +8,9 @@
 
 namespace humhub\modules\admin\controllers;
 
+use app\models\form\postTagsFrom;
 use humhub\modules\admin\permissions\ManageUsers;
 use Yii;
-
 use yii\web\HttpException;
 use humhub\compat\HForm;
 use humhub\modules\admin\components\Controller;
@@ -177,5 +177,24 @@ class UserProfileController extends Controller
         // generate json response
         echo json_encode($this->reorderContent('ProfileField', 200, 'The item order was successfully changed.'));
     }
+
+     /**
+     * skill
+     */
+    public function actionskill()
+    {
+   
+        $model = new postTagsFrom();
+
+        if ($model->load(Yii::$app->request->post()) && $model->validate()) {
+          
+
+            return $this->render('entry-confirm', ['model' => $model]);
+        } else {
+           
+            return $this->render('entry', ['model' => $model]);
+        }
+    }
+    
 
 }
