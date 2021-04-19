@@ -67,7 +67,7 @@ class UserProfileController extends Controller
     public function actionEditCategory()
     {
         $id = (int) Yii::$app->request->get('id');
-
+        
         $category = ProfileFieldCategory::findOne(['id' => $id]);
         if ($category == null) {
             $category = new ProfileFieldCategory;
@@ -151,13 +151,15 @@ class UserProfileController extends Controller
 
         // Form Submitted?
         if ($form->submitted('save') && $form->validate()) {
-
+            
             // Use ProfileField Instance from Form with new Values
             $field = $form->models['ProfileField'];
             $fieldType = $form->models[$field->field_type_class];
-
+            
             if ($field->save() && $fieldType->save()) {
+                
                 return $this->redirect(['/admin/user-profile']);
+                
             }
         }
         if ($form->submitted('delete')) {
@@ -178,23 +180,23 @@ class UserProfileController extends Controller
         echo json_encode($this->reorderContent('ProfileField', 200, 'The item order was successfully changed.'));
     }
 
-     /**
-     * skill
-     */
-    public function actionskill()
-    {
+    //  /**
+    //  * skill
+    //  */
+    // public function actionskill()
+    // {
    
-        $model = new postTagsFrom();
+    //     $model = new postTagsFrom();
 
-        if ($model->load(Yii::$app->request->post()) && $model->validate()) {
+    //     if ($model->load(Yii::$app->request->post()) && $model->validate()) {
           
 
-            return $this->render('entry-confirm', ['model' => $model]);
-        } else {
+    //         return $this->render('entry-confirm', ['model' => $model]);
+    //     } else {
            
-            return $this->render('entry', ['model' => $model]);
-        }
-    }
+    //         return $this->render('entry', ['model' => $model]);
+    //     }
+    // }
     
 
 }

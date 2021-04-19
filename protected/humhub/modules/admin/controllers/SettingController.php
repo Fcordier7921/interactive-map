@@ -252,6 +252,7 @@ class SettingController extends Controller
     {
         $form = new FileSettingsForm;
         if ($form->load(Yii::$app->request->post()) && $form->validate() && $form->save()) {
+            
             $this->view->saved();
             return $this->redirect([
                 '/admin/setting/file'

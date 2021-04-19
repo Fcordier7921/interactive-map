@@ -75,7 +75,7 @@ class AccountController extends BaseAccountController
         /** @var User $user */
         $user = Yii::$app->user->getIdentity();
         $user->profile->scenario = 'editProfile';
-
+        // dd($user);
         // Get Form Definition
         $definition = $user->profile->getFormDefinition();
         $definition['buttons'] = [
@@ -88,10 +88,43 @@ class AccountController extends BaseAccountController
 
         $form = new HForm($definition, $user->profile);
         $form->showErrorSummary = true;
+
         if ($form->submitted('save') && $form->validate() && $form->save()) {
+            if ($user->profile->city != null) {
+
+                $curl = curl_init("http://open.mapquestapi.com/geocoding/v1/address?key=p7SEPkMy7u1mNlD7jnfoU3KtcLKmdlco&location=" . $user->profile->street . ' ' . $user->profile->zip . ' ' . $user->profile->city);
+                curl_setopt($curl, CURLOPT_CAINFO, __DIR__ . DIRECTORY_SEPARATOR . 'cert.cer'); // je n'ai pas utiliser surl_setopt_array caar pas pris en compte par le framwerk yii
+                curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+                curl_setopt($curl, CURLOPT_TIMEOUT, 1);
+                $data = curl_exec($curl);
+                if ($data === false) {
+                    var_dump(curl_error($curl));
+                } else {
+                    if (curl_getinfo($curl, CURLINFO_HTTP_CODE) === 200) {
+                        $data = json_decode($data, true);
+                        if (isset($data["results"][0]["locations"][0]["latLng"])) {
+
+                            $user->profile->lat = $data["results"][0]["locations"][0]["latLng"]['lat'];
+                            $user->profile->lng = $data["results"][0]["locations"][0]["latLng"]['lng'];
+
+                            $user->profile->save();
+                            // dd($user->profile);
+                        } else {
+                            echo '<h1> un erreur est survenu veuiller contacter le créateur du site.</h1>';
+                        }
+                    }
+                }
+                curl_close($curl);
+            }else
+            {
+                $user->profile->lat= null;
+                $user->profile->lng= null;
+                $user->profile->save();
+            }
 
             // Trigger search refresh
             $user->save();
+            // dd($user);
 
             $this->view->saved();
             return $this->redirect(['edit']);
@@ -107,10 +140,10 @@ class AccountController extends BaseAccountController
      */
     public function actionEditSettings()
     {
-        
+
         /** @var User $user */
         $user = Yii::$app->user->getIdentity();
-        $PostTagas=PostTags::find()->all();//Retrieve information from the PostTags table
+        $PostTagas = PostTags::find()->all(); //Retrieve information from the PostTags table
         $model = new \humhub\modules\user\models\forms\AccountSettings();
         $model->language = $user->language;
         if ($model->language == "") {
@@ -123,13 +156,13 @@ class AccountController extends BaseAccountController
         $model->tags = $user->tags;
         $model->show_introduction_tour = Yii::$app->getModule('tour')->settings->contentContainer($user)->get("hideTourPanel");
         $model->visibility = $user->visibility;
-       
+
         if ($model->load(Yii::$app->request->post()) && $model->validate()) {
             Yii::$app->getModule('tour')->settings->contentContainer($user)->set('hideTourPanel', $model->show_introduction_tour);
             $user->language = $model->language;
-            
-            $tagsliste=$_POST['AccountSettings']['tags'];
-            $newtags=implode(", ", $tagsliste);
+
+            $tagsliste = $_POST['AccountSettings']['tags'];
+            $newtags = implode(", ", $tagsliste);
             $user->tags = $newtags;
             $user->time_zone = $model->timeZone;
             $user->visibility = $model->visibility;
@@ -145,10 +178,10 @@ class AccountController extends BaseAccountController
         $col->asort($languages);
 
         return $this->render('editSettings', [
-            'model' => $model, 
+            'model' => $model,
             'languages' => $languages,
             'PostTagas' => $PostTagas
-            ]);
+        ]);
     }
 
     /**
@@ -482,5 +515,4 @@ class AccountController extends BaseAccountController
 
         return Yii::$app->user->getIdentity();
     }
-
 }

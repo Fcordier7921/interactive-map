@@ -8,6 +8,8 @@
 
 namespace humhub\modules\admin\widgets;
 
+use app\models\PostTags;
+use app\models\PosttagsQuery;
 use Yii;
 use humhub\modules\admin\models\UserApprovalSearch;
 use humhub\modules\admin\permissions\ManageGroups;
@@ -79,6 +81,16 @@ class UserMenu extends TabMenu
             'isActive' => MenuLink::isActiveState('admin', 'group'),
             'isVisible' => Yii::$app->user->can(ManageGroups::class)
         ]));
+
+        $this->addEntry(new MenuLink([
+            'label' => Yii::t('AdminModule.user', 'skill'),
+            'url'=> ['/admin/skill'],
+            'sortOrder' => 500,
+            'isActive' => MenuLink::isActiveState('admin', 'skill'),
+            
+        ]));
+        
+
 
 
         parent::init();

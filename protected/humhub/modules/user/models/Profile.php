@@ -46,6 +46,8 @@ use yii\db\ActiveRecord;
  * @property string $url_myspace
  * @property string $url_googleplus
  * @property string $url_twitter
+ * @property integer $lat
+ * @property integer $lng
  * @property User $user
  */
 class Profile extends ActiveRecord
@@ -77,6 +79,7 @@ class Profile extends ActiveRecord
             [['firstname', 'lastname'], 'trim'],
             [['user_id'], 'required'],
             [['user_id'], 'integer'],
+             
         ];
 
         foreach (ProfileField::find()->all() as $profileField) {

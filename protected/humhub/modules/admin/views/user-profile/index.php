@@ -36,7 +36,7 @@ $categoryItems[] = [
         <?= Yii::t('AdminModule.user', 'Here you can create or edit profile categories and fields.'); ?>
     </div>
     
-     <button url="<?= Url::to(['']);?>" class="btn btn-primary" type="submit" data-ui-loader>add skill</button>
+    
     <?= Tabs::widget([
         'viewPath' => '@admin/views/user-profile/',
         'items' => $categoryItems

@@ -143,8 +143,14 @@ AppAsset::register($this);
         <div class="row">
             <div class="list row col-12 col-lg-9 col-xl-7 m-0" id="documents">
                 <?php foreach ($users as $user) : ?>
-
-                    <div class='document  item js-marker col-12 col-md-3  ' data-lat='<?= Html::encode("{$latlng[$user->id]['lat']}") ?>' data-lng='<?= Html::encode("{$latlng[$user->id]['lng']}") ?>' data-nom='<?= Html::encode("{$user->profile->firstname} {$user->profile->lastname}") ?>'>
+                
+                    <div class='document  item js-marker col-12 col-md-3  '
+                    <?php if($user->profile->lat != null && $user->profile->lng != null) : ?> 
+                    data-lat='<?= Html::encode("{$user->profile->lat}") ?>' data-lng='<?= Html::encode("{$user->profile->lng}") ?>'
+                    <?php else : ?>
+                        data-lat='46.80<?php echo rand(270, 300);?> ' data-lng='5.45<?php echo rand(170, 200);?>'
+                    <?php endif; ?>
+                    data-nom='<?= Html::encode("{$user->profile->firstname} {$user->profile->lastname}") ?>'>
                         <?php if (file_exists("uploads/profile_image/{$user->guid}.jpg")) : ?>
                             <?= Html::img("uploads/profile_image/{$user->guid}.jpg", ['alt' => 'My logo']) ?>
                         <?php else : ?>
@@ -417,6 +423,9 @@ AppAsset::register($this);
                 let point = [lat, lng];
                 this.bounds.push(point);
                 return new LeafletMarker(point, text, this.map);
+                
+                
+                
             }
 
             center() { //centrer la carte parrapport a tout les point
@@ -426,6 +435,7 @@ AppAsset::register($this);
             }
 
         }
+        
         class LeafletMarker { //class qui contient la gestion des marker
             constructor(point, text, map) {
                 this.text = text;
@@ -476,7 +486,7 @@ AppAsset::register($this);
             let activeMarker = null;
             await map.load($map); //on attend le chargement de la carte
             //par surté on télécharge le polifyle de arrey.from
-            Array.from(document.querySelectorAll('.js-marker')).forEach((item) => {
+            let group= Array.from(document.querySelectorAll('.js-marker')).forEach((item) => {
                 let marker = map.addMarker(item.dataset.lat, item.dataset.lng, item.dataset.nom);
                 item.addEventListener('mouseover', function() { //ajouter au survole de la sourie sur la liste a gauche
                     if (hoverMarker !== null) { //suprimer le dernier marker actif
@@ -517,6 +527,7 @@ AppAsset::register($this);
 
 
             })
+            
             map.center(); //centre la carte sur le marker
 
         }
