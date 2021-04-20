@@ -6,12 +6,12 @@
  * @license https://www.humhub.com/licences
  */
 
-namespace app\models\form;
+namespace humhub\modules\admin\models\forms;
 
-
+use app\models\PostTags;
 use Yii;
 use yii\base\Model;
-use app\models\PostTags;
+
 
 /**
  *
@@ -27,11 +27,28 @@ class postTagsFrom extends Model
     public function rules()
     {
         return [
-            ['skill', 'string']
+            ['skill', 'string'],
+            ['skill', 'exist', 'targetClass' => PostcTags::class, 'targetAttribute' => 'skill', ]
+            
         ];
     }
 
     
-   
-
+   /**
+    * signs postTags up
+    */
+    public function signup()
+    {
+    
+       
+        $skill= new PostTags();
+        $skill->skill=$this->skill;
+        if($skill->validate())
+        {
+            
+            $skill->save();
+            return $skill;
+        }
+        
+    }
 }

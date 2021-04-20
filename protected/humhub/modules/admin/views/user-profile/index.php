@@ -4,8 +4,9 @@ use humhub\modules\ui\icon\widgets\Icon;
 use humhub\widgets\Tabs;
 use humhub\modules\user\models\ProfileFieldCategory;
 use humhub\widgets\Button;
-use PhpOffice\PhpSpreadsheet\Helper\Html;
+
 use yii\helpers\Url;
+use humhub\libs\Html;
 
 $categoryItems = [];
 foreach (ProfileFieldCategory::find()->orderBy('sort_order')->all() as $category) {
@@ -36,7 +37,7 @@ $categoryItems[] = [
         <?= Yii::t('AdminModule.user', 'Here you can create or edit profile categories and fields.'); ?>
     </div>
     
-    
+     
     <?= Tabs::widget([
         'viewPath' => '@admin/views/user-profile/',
         'items' => $categoryItems

@@ -8,7 +8,7 @@
 
 namespace humhub\modules\admin\controllers;
 
-use app\models\form\postTagsFrom;
+use humhub\modules\admin\models\forms\postTagsFrom;
 use app\models\PostTags;
 use humhub\modules\admin\permissions\ManageUsers;
 use Yii;
@@ -18,25 +18,27 @@ use humhub\modules\admin\components\Controller;
 use humhub\modules\user\models\ProfileFieldCategory;
 use humhub\modules\user\models\ProfileField;
 use humhub\modules\user\models\fieldtype\BaseType;
+use yii\base\Model;
 use yii\helpers\Url;
 
 /**
- * UserprofileController provides manipulation of the user's profile fields & categories.
+ * Skill Administration Controller
  *
  * @since 0.5
  */
-class skillController extends Controller
+class SkillController extends Controller
 {
 
-    
+
 
     /**
      * @inheritdoc
      */
     public function init()
     {
+
         $this->appendPageTitle(Yii::t('AdminModule.base', 'skill'));
-        
+
 
         return parent::init();
     }
@@ -46,12 +48,20 @@ class skillController extends Controller
      *
      */
     public function actionIndex()
-    {   
-        $PosttagsQuery=new PostTags();
-        $skill=$PosttagsQuery->all();
-        dd($skill);
-        return $this->render('skill/index', [
-            'skills'=>$skill
+    {
+        $model = new postTagsFrom;
+
+        if ($model->load(Yii::$app->request->post())) {
+            $model->signup();
+            header("Location: http://humhub-1.8.1.test/index.php?r=admin%2Fskill");
+            exit;
+        }
+        $skill = PostTags::find()->all();
+
+        return $this->render('index', [
+            'skills' => $skill,
+            'models' => $model,
+
         ]);
     }
 }

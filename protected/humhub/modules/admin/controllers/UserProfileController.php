@@ -180,23 +180,6 @@ class UserProfileController extends Controller
         echo json_encode($this->reorderContent('ProfileField', 200, 'The item order was successfully changed.'));
     }
 
-    //  /**
-    //  * skill
-    //  */
-    // public function actionskill()
-    // {
-   
-    //     $model = new postTagsFrom();
-
-    //     if ($model->load(Yii::$app->request->post()) && $model->validate()) {
-          
-
-    //         return $this->render('entry-confirm', ['model' => $model]);
-    //     } else {
-           
-    //         return $this->render('entry', ['model' => $model]);
-    //     }
-    // }
-    
+  
 
 }

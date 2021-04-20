@@ -1,269 +1,123 @@
-2021-04-19 09:43:06 [127.0.0.1][1][-][error][application] Duplicated module "activity"(protected/humhub/modules\activity) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\activity"
+2021-04-20 15:03:59 [127.0.0.1][1][-][error][application] Duplicated module "activity"(protected/humhub/modules\activity) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\activity"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:06 [127.0.0.1][1][-][error][application] Duplicated module "admin"(protected/humhub/modules\admin) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\admin"
+2021-04-20 15:03:59 [127.0.0.1][1][-][error][application] Duplicated module "admin"(protected/humhub/modules\admin) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\admin"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:06 [127.0.0.1][1][-][error][application] Duplicated module "comment"(protected/humhub/modules\comment) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\comment"
+2021-04-20 15:03:59 [127.0.0.1][1][-][error][application] Duplicated module "comment"(protected/humhub/modules\comment) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\comment"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:06 [127.0.0.1][1][-][error][application] Duplicated module "content"(protected/humhub/modules\content) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\content"
+2021-04-20 15:03:59 [127.0.0.1][1][-][error][application] Duplicated module "content"(protected/humhub/modules\content) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\content"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:06 [127.0.0.1][1][-][error][application] Duplicated module "dashboard"(protected/humhub/modules\dashboard) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\dashboard"
+2021-04-20 15:03:59 [127.0.0.1][1][-][error][application] Duplicated module "dashboard"(protected/humhub/modules\dashboard) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\dashboard"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:06 [127.0.0.1][1][-][error][application] Duplicated module "devtools"(protected/humhub/modules\devtools) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\devtools"
+2021-04-20 15:03:59 [127.0.0.1][1][-][error][application] Duplicated module "devtools"(protected/humhub/modules\devtools) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\devtools"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:06 [127.0.0.1][1][-][error][application] Duplicated module "directory"(protected/humhub/modules\directory) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\directory"
+2021-04-20 15:03:59 [127.0.0.1][1][-][error][application] Duplicated module "directory"(protected/humhub/modules\directory) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\directory"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:06 [127.0.0.1][1][-][error][application] Duplicated module "file"(protected/humhub/modules\file) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\file"
+2021-04-20 15:03:59 [127.0.0.1][1][-][error][application] Duplicated module "file"(protected/humhub/modules\file) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\file"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:06 [127.0.0.1][1][-][error][application] Duplicated module "friendship"(protected/humhub/modules\friendship) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\friendship"
+2021-04-20 15:03:59 [127.0.0.1][1][-][error][application] Duplicated module "friendship"(protected/humhub/modules\friendship) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\friendship"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:06 [127.0.0.1][1][-][error][application] Duplicated module "installer"(protected/humhub/modules\installer) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\installer"
+2021-04-20 15:03:59 [127.0.0.1][1][-][error][application] Duplicated module "installer"(protected/humhub/modules\installer) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\installer"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:06 [127.0.0.1][1][-][error][application] Duplicated module "ldap"(protected/humhub/modules\ldap) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\ldap"
+2021-04-20 15:03:59 [127.0.0.1][1][-][error][application] Duplicated module "ldap"(protected/humhub/modules\ldap) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\ldap"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:06 [127.0.0.1][1][-][error][application] Duplicated module "like"(protected/humhub/modules\like) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\like"
+2021-04-20 15:03:59 [127.0.0.1][1][-][error][application] Duplicated module "like"(protected/humhub/modules\like) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\like"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:06 [127.0.0.1][1][-][error][application] Duplicated module "live"(protected/humhub/modules\live) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\live"
+2021-04-20 15:03:59 [127.0.0.1][1][-][error][application] Duplicated module "live"(protected/humhub/modules\live) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\live"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:06 [127.0.0.1][1][-][error][application] Duplicated module "marketplace"(protected/humhub/modules\marketplace) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\marketplace"
+2021-04-20 15:03:59 [127.0.0.1][1][-][error][application] Duplicated module "marketplace"(protected/humhub/modules\marketplace) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\marketplace"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:06 [127.0.0.1][1][-][error][application] Duplicated module "notification"(protected/humhub/modules\notification) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\notification"
+2021-04-20 15:03:59 [127.0.0.1][1][-][error][application] Duplicated module "notification"(protected/humhub/modules\notification) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\notification"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:06 [127.0.0.1][1][-][error][application] Duplicated module "post"(protected/humhub/modules\post) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\post"
+2021-04-20 15:03:59 [127.0.0.1][1][-][error][application] Duplicated module "post"(protected/humhub/modules\post) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\post"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:06 [127.0.0.1][1][-][error][application] Duplicated module "queue"(protected/humhub/modules\queue) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\queue"
+2021-04-20 15:03:59 [127.0.0.1][1][-][error][application] Duplicated module "queue"(protected/humhub/modules\queue) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\queue"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:06 [127.0.0.1][1][-][error][application] Duplicated module "recherche"(protected/humhub/modules\recherche) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\recherche"
+2021-04-20 15:03:59 [127.0.0.1][1][-][error][application] Duplicated module "recherche"(protected/humhub/modules\recherche) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\recherche"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:06 [127.0.0.1][1][-][error][application] Duplicated module "search"(protected/humhub/modules\search) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\search"
+2021-04-20 15:03:59 [127.0.0.1][1][-][error][application] Duplicated module "search"(protected/humhub/modules\search) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\search"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:06 [127.0.0.1][1][-][error][application] Duplicated module "space"(protected/humhub/modules\space) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\space"
+2021-04-20 15:03:59 [127.0.0.1][1][-][error][application] Duplicated module "space"(protected/humhub/modules\space) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\space"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:06 [127.0.0.1][1][-][error][application] Duplicated module "stream"(protected/humhub/modules\stream) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\stream"
+2021-04-20 15:03:59 [127.0.0.1][1][-][error][application] Duplicated module "stream"(protected/humhub/modules\stream) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\stream"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:06 [127.0.0.1][1][-][error][application] Duplicated module "topic"(protected/humhub/modules\topic) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\topic"
+2021-04-20 15:03:59 [127.0.0.1][1][-][error][application] Duplicated module "topic"(protected/humhub/modules\topic) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\topic"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:06 [127.0.0.1][1][-][error][application] Duplicated module "tour"(protected/humhub/modules\tour) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\tour"
+2021-04-20 15:03:59 [127.0.0.1][1][-][error][application] Duplicated module "tour"(protected/humhub/modules\tour) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\tour"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:06 [127.0.0.1][1][-][error][application] Duplicated module "ui"(protected/humhub/modules\ui) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\ui"
+2021-04-20 15:03:59 [127.0.0.1][1][-][error][application] Duplicated module "ui"(protected/humhub/modules\ui) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\ui"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:06 [127.0.0.1][1][-][error][application] Duplicated module "user"(protected/humhub/modules\user) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\user"
+2021-04-20 15:03:59 [127.0.0.1][1][-][error][application] Duplicated module "user"(protected/humhub/modules\user) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\user"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:06 [127.0.0.1][1][-][error][application] Duplicated module "web"(protected/humhub/modules\web) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\web"
+2021-04-20 15:03:59 [127.0.0.1][1][-][error][application] Duplicated module "web"(protected/humhub/modules\web) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\web"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:05 [127.0.0.1][1][-][info][application] $_GET = [
-    'r' => 'admin/user/list'
-]
-
-$_SERVER = [
-    'HTTP_HOST' => 'humhub-1.8.1.test'
-    'HTTP_CONNECTION' => 'keep-alive'
-    'HTTP_CACHE_CONTROL' => 'max-age=0'
-    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
-    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36'
-    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
-    'HTTP_REFERER' => 'http://humhub-1.8.1.test/index.php?r=recherche%2Findex'
-    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
-    'HTTP_ACCEPT_LANGUAGE' => 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7'
-    'HTTP_COOKIE' => 'language=c6364c565cf4dee2a644888baff5cf0f2f210fb917bc8d8c701be93981be1e85a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22fr%22%3B%7D; _identity=bd5314151b4deb45ea86e9eb4dbb526c51ffad9e2d6adcf24e20b9182035c60ea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A50%3A%22%5B1%2C%22ef74d7cc-b662-4f7b-8284-8ac1169b1ff6%22%2C2592000%5D%22%3B%7D; PHPSESSID=3f8ru5da1c2uu5r8m9crn72bh3; _csrf=7afd0607d40495074e7ab13d6046b9ace03a57e0d866b0cc38b98b9719343faca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22e9wGOy0xE1lZEHJA6jDUG2YMITd8RUk9%22%3B%7D'
-    'PATH' => 'C:\\Program Files\\ImageMagick-7.0.11-Q16-HDRI;C:\\Program Files (x86)\\ImageMagick-7.0.10-Q16;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Symfony;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Users\\acs\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\acs\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\php;C:\\Users\\acs\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\acs\\AppData\\Roaming\\npm'
-    'SystemRoot' => 'C:\\Windows'
-    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
-    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
-    'WINDIR' => 'C:\\Windows'
-    'SERVER_SIGNATURE' => ''
-    'SERVER_SOFTWARE' => 'Apache/2.4.35 (Win64) OpenSSL/1.1.1d PHP/7.4.1'
-    'SERVER_NAME' => 'humhub-1.8.1.test'
-    'SERVER_ADDR' => '127.0.0.1'
-    'SERVER_PORT' => '80'
-    'REMOTE_ADDR' => '127.0.0.1'
-    'DOCUMENT_ROOT' => 'C:/laragon/www/humhub-1.8.1/'
-    'REQUEST_SCHEME' => 'http'
-    'CONTEXT_PREFIX' => ''
-    'CONTEXT_DOCUMENT_ROOT' => 'C:/laragon/www/humhub-1.8.1/'
-    'SERVER_ADMIN' => 'admin@example.com'
-    'SCRIPT_FILENAME' => 'C:/laragon/www/humhub-1.8.1/index.php'
-    'REMOTE_PORT' => '49154'
-    'GATEWAY_INTERFACE' => 'CGI/1.1'
-    'SERVER_PROTOCOL' => 'HTTP/1.1'
-    'REQUEST_METHOD' => 'GET'
-    'QUERY_STRING' => 'r=admin%2Fuser%2Flist'
-    'REQUEST_URI' => '/index.php?r=admin%2Fuser%2Flist'
-    'SCRIPT_NAME' => '/index.php'
-    'PHP_SELF' => '/index.php'
-    'REQUEST_TIME_FLOAT' => 1618825385.855
-    'REQUEST_TIME' => 1618825385
-]
-2021-04-19 09:43:08 [127.0.0.1][1][-][error][application] Duplicated module "activity"(protected/humhub/modules\activity) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\activity"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:08 [127.0.0.1][1][-][error][application] Duplicated module "admin"(protected/humhub/modules\admin) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\admin"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:08 [127.0.0.1][1][-][error][application] Duplicated module "comment"(protected/humhub/modules\comment) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\comment"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:08 [127.0.0.1][1][-][error][application] Duplicated module "content"(protected/humhub/modules\content) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\content"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:08 [127.0.0.1][1][-][error][application] Duplicated module "dashboard"(protected/humhub/modules\dashboard) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\dashboard"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:08 [127.0.0.1][1][-][error][application] Duplicated module "devtools"(protected/humhub/modules\devtools) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\devtools"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:08 [127.0.0.1][1][-][error][application] Duplicated module "directory"(protected/humhub/modules\directory) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\directory"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:08 [127.0.0.1][1][-][error][application] Duplicated module "file"(protected/humhub/modules\file) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\file"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:08 [127.0.0.1][1][-][error][application] Duplicated module "friendship"(protected/humhub/modules\friendship) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\friendship"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:08 [127.0.0.1][1][-][error][application] Duplicated module "installer"(protected/humhub/modules\installer) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\installer"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:08 [127.0.0.1][1][-][error][application] Duplicated module "ldap"(protected/humhub/modules\ldap) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\ldap"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:08 [127.0.0.1][1][-][error][application] Duplicated module "like"(protected/humhub/modules\like) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\like"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:08 [127.0.0.1][1][-][error][application] Duplicated module "live"(protected/humhub/modules\live) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\live"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:08 [127.0.0.1][1][-][error][application] Duplicated module "marketplace"(protected/humhub/modules\marketplace) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\marketplace"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:08 [127.0.0.1][1][-][error][application] Duplicated module "notification"(protected/humhub/modules\notification) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\notification"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:08 [127.0.0.1][1][-][error][application] Duplicated module "post"(protected/humhub/modules\post) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\post"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:08 [127.0.0.1][1][-][error][application] Duplicated module "queue"(protected/humhub/modules\queue) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\queue"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:08 [127.0.0.1][1][-][error][application] Duplicated module "recherche"(protected/humhub/modules\recherche) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\recherche"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:08 [127.0.0.1][1][-][error][application] Duplicated module "search"(protected/humhub/modules\search) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\search"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:08 [127.0.0.1][1][-][error][application] Duplicated module "space"(protected/humhub/modules\space) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\space"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:08 [127.0.0.1][1][-][error][application] Duplicated module "stream"(protected/humhub/modules\stream) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\stream"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:08 [127.0.0.1][1][-][error][application] Duplicated module "topic"(protected/humhub/modules\topic) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\topic"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:08 [127.0.0.1][1][-][error][application] Duplicated module "tour"(protected/humhub/modules\tour) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\tour"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:08 [127.0.0.1][1][-][error][application] Duplicated module "ui"(protected/humhub/modules\ui) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\ui"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:08 [127.0.0.1][1][-][error][application] Duplicated module "user"(protected/humhub/modules\user) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\user"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:08 [127.0.0.1][1][-][error][application] Duplicated module "web"(protected/humhub/modules\web) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\web"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:08 [127.0.0.1][1][-][info][application] $_GET = [
-    'r' => 'mail/mail/get-new-message-count-json'
+2021-04-20 15:03:59 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'live/poll'
+    'last' => '1618931018'
 ]
 
 $_SERVER = [
     'HTTP_HOST' => 'humhub-1.8.1.test'
     'HTTP_CONNECTION' => 'keep-alive'
     'HTTP_ACCEPT' => '*/*'
-    'HTTP_X_CSRF_TOKEN' => 'bw0KYAW5baBMEhcDdyX2eCTn_SDoxzHvtzjdGfDJQ-UKNH0nSsBd2Akje1kybbw5Eo25da_1aKL-bLkhopwo3A=='
+    'HTTP_X_CSRF_TOKEN' => '4iDymkiCpGtc1o-d5r6b_HNX57Z2_kcUHIHb0flrRLuTU6ToIrHKBTaU_vzX_82pPDOsxiTGdyFkrISAgRstzQ=='
     'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36'
     'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
-    'HTTP_REFERER' => 'http://humhub-1.8.1.test/index.php?r=admin%2Fuser%2Flist'
+    'HTTP_REFERER' => 'http://humhub-1.8.1.test/index.php?r=admin%2Fskill'
     'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
     'HTTP_ACCEPT_LANGUAGE' => 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7'
-    'HTTP_COOKIE' => 'language=c6364c565cf4dee2a644888baff5cf0f2f210fb917bc8d8c701be93981be1e85a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22fr%22%3B%7D; _identity=bd5314151b4deb45ea86e9eb4dbb526c51ffad9e2d6adcf24e20b9182035c60ea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A50%3A%22%5B1%2C%22ef74d7cc-b662-4f7b-8284-8ac1169b1ff6%22%2C2592000%5D%22%3B%7D; PHPSESSID=3f8ru5da1c2uu5r8m9crn72bh3; _csrf=7afd0607d40495074e7ab13d6046b9ace03a57e0d866b0cc38b98b9719343faca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22e9wGOy0xE1lZEHJA6jDUG2YMITd8RUk9%22%3B%7D'
+    'HTTP_COOKIE' => 'language=c6364c565cf4dee2a644888baff5cf0f2f210fb917bc8d8c701be93981be1e85a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22fr%22%3B%7D; _identity=bd5314151b4deb45ea86e9eb4dbb526c51ffad9e2d6adcf24e20b9182035c60ea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A50%3A%22%5B1%2C%22ef74d7cc-b662-4f7b-8284-8ac1169b1ff6%22%2C2592000%5D%22%3B%7D; _csrf=9f593f6ba58c96e46408283c5f14a86e5608e52938911ae1f376e052b53bbebea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22qsVrj3nnjBqa1AVUOdKpR805x-_Qxpiv%22%3B%7D; PHPSESSID=m26atdje359mjmv1roh1c38sra'
     'PATH' => 'C:\\Program Files\\ImageMagick-7.0.11-Q16-HDRI;C:\\Program Files (x86)\\ImageMagick-7.0.10-Q16;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Symfony;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Users\\acs\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\acs\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\php;C:\\Users\\acs\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\acs\\AppData\\Roaming\\npm'
     'SystemRoot' => 'C:\\Windows'
     'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
@@ -281,434 +135,137 @@ $_SERVER = [
     'CONTEXT_DOCUMENT_ROOT' => 'C:/laragon/www/humhub-1.8.1/'
     'SERVER_ADMIN' => 'admin@example.com'
     'SCRIPT_FILENAME' => 'C:/laragon/www/humhub-1.8.1/index.php'
-    'REMOTE_PORT' => '49154'
+    'REMOTE_PORT' => '56185'
     'GATEWAY_INTERFACE' => 'CGI/1.1'
     'SERVER_PROTOCOL' => 'HTTP/1.1'
     'REQUEST_METHOD' => 'GET'
-    'QUERY_STRING' => 'r=mail%2Fmail%2Fget-new-message-count-json'
-    'REQUEST_URI' => '/index.php?r=mail%2Fmail%2Fget-new-message-count-json'
+    'QUERY_STRING' => 'r=live%2Fpoll&last=1618931018'
+    'REQUEST_URI' => '/index.php?r=live%2Fpoll&last=1618931018'
     'SCRIPT_NAME' => '/index.php'
     'PHP_SELF' => '/index.php'
-    'REQUEST_TIME_FLOAT' => 1618825388.219
-    'REQUEST_TIME' => 1618825388
+    'REQUEST_TIME_FLOAT' => 1618931039.261
+    'REQUEST_TIME' => 1618931039
 ]
-2021-04-19 09:43:10 [127.0.0.1][1][3f8ru5da1c2uu5r8m9crn72bh3][error][application] Duplicated module "activity"(protected/humhub/modules\activity) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\activity"
+2021-04-20 15:04:22 [127.0.0.1][1][-][error][application] Duplicated module "activity"(protected/humhub/modules\activity) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\activity"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:10 [127.0.0.1][1][3f8ru5da1c2uu5r8m9crn72bh3][error][application] Duplicated module "admin"(protected/humhub/modules\admin) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\admin"
+2021-04-20 15:04:22 [127.0.0.1][1][-][error][application] Duplicated module "admin"(protected/humhub/modules\admin) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\admin"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:10 [127.0.0.1][1][3f8ru5da1c2uu5r8m9crn72bh3][error][application] Duplicated module "comment"(protected/humhub/modules\comment) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\comment"
+2021-04-20 15:04:22 [127.0.0.1][1][-][error][application] Duplicated module "comment"(protected/humhub/modules\comment) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\comment"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:10 [127.0.0.1][1][3f8ru5da1c2uu5r8m9crn72bh3][error][application] Duplicated module "content"(protected/humhub/modules\content) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\content"
+2021-04-20 15:04:22 [127.0.0.1][1][-][error][application] Duplicated module "content"(protected/humhub/modules\content) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\content"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:10 [127.0.0.1][1][3f8ru5da1c2uu5r8m9crn72bh3][error][application] Duplicated module "dashboard"(protected/humhub/modules\dashboard) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\dashboard"
+2021-04-20 15:04:22 [127.0.0.1][1][-][error][application] Duplicated module "dashboard"(protected/humhub/modules\dashboard) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\dashboard"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:10 [127.0.0.1][1][3f8ru5da1c2uu5r8m9crn72bh3][error][application] Duplicated module "devtools"(protected/humhub/modules\devtools) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\devtools"
+2021-04-20 15:04:22 [127.0.0.1][1][-][error][application] Duplicated module "devtools"(protected/humhub/modules\devtools) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\devtools"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:10 [127.0.0.1][1][3f8ru5da1c2uu5r8m9crn72bh3][error][application] Duplicated module "directory"(protected/humhub/modules\directory) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\directory"
+2021-04-20 15:04:22 [127.0.0.1][1][-][error][application] Duplicated module "directory"(protected/humhub/modules\directory) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\directory"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:10 [127.0.0.1][1][3f8ru5da1c2uu5r8m9crn72bh3][error][application] Duplicated module "file"(protected/humhub/modules\file) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\file"
+2021-04-20 15:04:22 [127.0.0.1][1][-][error][application] Duplicated module "file"(protected/humhub/modules\file) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\file"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:10 [127.0.0.1][1][3f8ru5da1c2uu5r8m9crn72bh3][error][application] Duplicated module "friendship"(protected/humhub/modules\friendship) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\friendship"
+2021-04-20 15:04:22 [127.0.0.1][1][-][error][application] Duplicated module "friendship"(protected/humhub/modules\friendship) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\friendship"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:10 [127.0.0.1][1][3f8ru5da1c2uu5r8m9crn72bh3][error][application] Duplicated module "installer"(protected/humhub/modules\installer) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\installer"
+2021-04-20 15:04:22 [127.0.0.1][1][-][error][application] Duplicated module "installer"(protected/humhub/modules\installer) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\installer"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:10 [127.0.0.1][1][3f8ru5da1c2uu5r8m9crn72bh3][error][application] Duplicated module "ldap"(protected/humhub/modules\ldap) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\ldap"
+2021-04-20 15:04:22 [127.0.0.1][1][-][error][application] Duplicated module "ldap"(protected/humhub/modules\ldap) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\ldap"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:10 [127.0.0.1][1][3f8ru5da1c2uu5r8m9crn72bh3][error][application] Duplicated module "like"(protected/humhub/modules\like) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\like"
+2021-04-20 15:04:22 [127.0.0.1][1][-][error][application] Duplicated module "like"(protected/humhub/modules\like) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\like"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:10 [127.0.0.1][1][3f8ru5da1c2uu5r8m9crn72bh3][error][application] Duplicated module "live"(protected/humhub/modules\live) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\live"
+2021-04-20 15:04:22 [127.0.0.1][1][-][error][application] Duplicated module "live"(protected/humhub/modules\live) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\live"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:10 [127.0.0.1][1][3f8ru5da1c2uu5r8m9crn72bh3][error][application] Duplicated module "marketplace"(protected/humhub/modules\marketplace) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\marketplace"
+2021-04-20 15:04:22 [127.0.0.1][1][-][error][application] Duplicated module "marketplace"(protected/humhub/modules\marketplace) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\marketplace"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:10 [127.0.0.1][1][3f8ru5da1c2uu5r8m9crn72bh3][error][application] Duplicated module "notification"(protected/humhub/modules\notification) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\notification"
+2021-04-20 15:04:22 [127.0.0.1][1][-][error][application] Duplicated module "notification"(protected/humhub/modules\notification) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\notification"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:10 [127.0.0.1][1][3f8ru5da1c2uu5r8m9crn72bh3][error][application] Duplicated module "post"(protected/humhub/modules\post) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\post"
+2021-04-20 15:04:22 [127.0.0.1][1][-][error][application] Duplicated module "post"(protected/humhub/modules\post) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\post"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:10 [127.0.0.1][1][3f8ru5da1c2uu5r8m9crn72bh3][error][application] Duplicated module "queue"(protected/humhub/modules\queue) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\queue"
+2021-04-20 15:04:22 [127.0.0.1][1][-][error][application] Duplicated module "queue"(protected/humhub/modules\queue) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\queue"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:10 [127.0.0.1][1][3f8ru5da1c2uu5r8m9crn72bh3][error][application] Duplicated module "recherche"(protected/humhub/modules\recherche) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\recherche"
+2021-04-20 15:04:22 [127.0.0.1][1][-][error][application] Duplicated module "recherche"(protected/humhub/modules\recherche) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\recherche"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:10 [127.0.0.1][1][3f8ru5da1c2uu5r8m9crn72bh3][error][application] Duplicated module "search"(protected/humhub/modules\search) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\search"
+2021-04-20 15:04:22 [127.0.0.1][1][-][error][application] Duplicated module "search"(protected/humhub/modules\search) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\search"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:10 [127.0.0.1][1][3f8ru5da1c2uu5r8m9crn72bh3][error][application] Duplicated module "space"(protected/humhub/modules\space) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\space"
+2021-04-20 15:04:22 [127.0.0.1][1][-][error][application] Duplicated module "space"(protected/humhub/modules\space) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\space"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:10 [127.0.0.1][1][3f8ru5da1c2uu5r8m9crn72bh3][error][application] Duplicated module "stream"(protected/humhub/modules\stream) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\stream"
+2021-04-20 15:04:22 [127.0.0.1][1][-][error][application] Duplicated module "stream"(protected/humhub/modules\stream) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\stream"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:10 [127.0.0.1][1][3f8ru5da1c2uu5r8m9crn72bh3][error][application] Duplicated module "topic"(protected/humhub/modules\topic) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\topic"
+2021-04-20 15:04:22 [127.0.0.1][1][-][error][application] Duplicated module "topic"(protected/humhub/modules\topic) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\topic"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:10 [127.0.0.1][1][3f8ru5da1c2uu5r8m9crn72bh3][error][application] Duplicated module "tour"(protected/humhub/modules\tour) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\tour"
+2021-04-20 15:04:22 [127.0.0.1][1][-][error][application] Duplicated module "tour"(protected/humhub/modules\tour) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\tour"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:10 [127.0.0.1][1][3f8ru5da1c2uu5r8m9crn72bh3][error][application] Duplicated module "ui"(protected/humhub/modules\ui) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\ui"
+2021-04-20 15:04:22 [127.0.0.1][1][-][error][application] Duplicated module "ui"(protected/humhub/modules\ui) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\ui"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:10 [127.0.0.1][1][3f8ru5da1c2uu5r8m9crn72bh3][error][application] Duplicated module "user"(protected/humhub/modules\user) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\user"
+2021-04-20 15:04:22 [127.0.0.1][1][-][error][application] Duplicated module "user"(protected/humhub/modules\user) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\user"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:10 [127.0.0.1][1][3f8ru5da1c2uu5r8m9crn72bh3][error][application] Duplicated module "web"(protected/humhub/modules\web) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\web"
+2021-04-20 15:04:22 [127.0.0.1][1][-][error][application] Duplicated module "web"(protected/humhub/modules\web) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\web"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:10 [127.0.0.1][1][3f8ru5da1c2uu5r8m9crn72bh3][info][application] $_GET = [
-    'r' => 'protected/humhub/modules/admin/controllers/SkillController.php'
-    '_pjax' => '#layout-content'
-    '_' => '1618825386834'
-]
-
-$_SERVER = [
-    'HTTP_HOST' => 'humhub-1.8.1.test'
-    'HTTP_CONNECTION' => 'keep-alive'
-    'HTTP_ACCEPT' => 'text/html, */*; q=0.01'
-    'HTTP_X_CSRF_TOKEN' => 'bw0KYAW5baBMEhcDdyX2eCTn_SDoxzHvtzjdGfDJQ-UKNH0nSsBd2Akje1kybbw5Eo25da_1aKL-bLkhopwo3A=='
-    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
-    'HTTP_X_PJAX' => 'true'
-    'HTTP_X_PJAX_CONTAINER' => '#layout-content'
-    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36'
-    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
-    'HTTP_REFERER' => 'http://humhub-1.8.1.test/index.php?r=admin%2Fuser%2Flist'
-    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
-    'HTTP_ACCEPT_LANGUAGE' => 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7'
-    'HTTP_COOKIE' => 'language=c6364c565cf4dee2a644888baff5cf0f2f210fb917bc8d8c701be93981be1e85a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22fr%22%3B%7D; _identity=bd5314151b4deb45ea86e9eb4dbb526c51ffad9e2d6adcf24e20b9182035c60ea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A50%3A%22%5B1%2C%22ef74d7cc-b662-4f7b-8284-8ac1169b1ff6%22%2C2592000%5D%22%3B%7D; PHPSESSID=3f8ru5da1c2uu5r8m9crn72bh3; _csrf=7afd0607d40495074e7ab13d6046b9ace03a57e0d866b0cc38b98b9719343faca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22e9wGOy0xE1lZEHJA6jDUG2YMITd8RUk9%22%3B%7D'
-    'PATH' => 'C:\\Program Files\\ImageMagick-7.0.11-Q16-HDRI;C:\\Program Files (x86)\\ImageMagick-7.0.10-Q16;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Symfony;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Users\\acs\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\acs\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\php;C:\\Users\\acs\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\acs\\AppData\\Roaming\\npm'
-    'SystemRoot' => 'C:\\Windows'
-    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
-    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
-    'WINDIR' => 'C:\\Windows'
-    'SERVER_SIGNATURE' => ''
-    'SERVER_SOFTWARE' => 'Apache/2.4.35 (Win64) OpenSSL/1.1.1d PHP/7.4.1'
-    'SERVER_NAME' => 'humhub-1.8.1.test'
-    'SERVER_ADDR' => '127.0.0.1'
-    'SERVER_PORT' => '80'
-    'REMOTE_ADDR' => '127.0.0.1'
-    'DOCUMENT_ROOT' => 'C:/laragon/www/humhub-1.8.1/'
-    'REQUEST_SCHEME' => 'http'
-    'CONTEXT_PREFIX' => ''
-    'CONTEXT_DOCUMENT_ROOT' => 'C:/laragon/www/humhub-1.8.1/'
-    'SERVER_ADMIN' => 'admin@example.com'
-    'SCRIPT_FILENAME' => 'C:/laragon/www/humhub-1.8.1/index.php'
-    'REMOTE_PORT' => '49154'
-    'GATEWAY_INTERFACE' => 'CGI/1.1'
-    'SERVER_PROTOCOL' => 'HTTP/1.1'
-    'REQUEST_METHOD' => 'GET'
-    'QUERY_STRING' => 'r=protected%2Fhumhub%2Fmodules%2Fadmin%2Fcontrollers%2FSkillController.php&_pjax=%23layout-content&_=1618825386834'
-    'REQUEST_URI' => '/index.php?r=protected%2Fhumhub%2Fmodules%2Fadmin%2Fcontrollers%2FSkillController.php&_pjax=%23layout-content&_=1618825386834'
-    'SCRIPT_NAME' => '/index.php'
-    'PHP_SELF' => '/index.php'
-    'REQUEST_TIME_FLOAT' => 1618825390.297
-    'REQUEST_TIME' => 1618825390
-]
-2021-04-19 09:43:12 [127.0.0.1][1][3f8ru5da1c2uu5r8m9crn72bh3][error][application] Duplicated module "activity"(protected/humhub/modules\activity) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\activity"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:12 [127.0.0.1][1][3f8ru5da1c2uu5r8m9crn72bh3][error][application] Duplicated module "admin"(protected/humhub/modules\admin) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\admin"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:12 [127.0.0.1][1][3f8ru5da1c2uu5r8m9crn72bh3][error][application] Duplicated module "comment"(protected/humhub/modules\comment) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\comment"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:12 [127.0.0.1][1][3f8ru5da1c2uu5r8m9crn72bh3][error][application] Duplicated module "content"(protected/humhub/modules\content) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\content"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:12 [127.0.0.1][1][3f8ru5da1c2uu5r8m9crn72bh3][error][application] Duplicated module "dashboard"(protected/humhub/modules\dashboard) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\dashboard"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:12 [127.0.0.1][1][3f8ru5da1c2uu5r8m9crn72bh3][error][application] Duplicated module "devtools"(protected/humhub/modules\devtools) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\devtools"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:12 [127.0.0.1][1][3f8ru5da1c2uu5r8m9crn72bh3][error][application] Duplicated module "directory"(protected/humhub/modules\directory) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\directory"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:12 [127.0.0.1][1][3f8ru5da1c2uu5r8m9crn72bh3][error][application] Duplicated module "file"(protected/humhub/modules\file) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\file"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:12 [127.0.0.1][1][3f8ru5da1c2uu5r8m9crn72bh3][error][application] Duplicated module "friendship"(protected/humhub/modules\friendship) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\friendship"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:12 [127.0.0.1][1][3f8ru5da1c2uu5r8m9crn72bh3][error][application] Duplicated module "installer"(protected/humhub/modules\installer) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\installer"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:12 [127.0.0.1][1][3f8ru5da1c2uu5r8m9crn72bh3][error][application] Duplicated module "ldap"(protected/humhub/modules\ldap) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\ldap"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:12 [127.0.0.1][1][3f8ru5da1c2uu5r8m9crn72bh3][error][application] Duplicated module "like"(protected/humhub/modules\like) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\like"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:12 [127.0.0.1][1][3f8ru5da1c2uu5r8m9crn72bh3][error][application] Duplicated module "live"(protected/humhub/modules\live) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\live"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:12 [127.0.0.1][1][3f8ru5da1c2uu5r8m9crn72bh3][error][application] Duplicated module "marketplace"(protected/humhub/modules\marketplace) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\marketplace"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:12 [127.0.0.1][1][3f8ru5da1c2uu5r8m9crn72bh3][error][application] Duplicated module "notification"(protected/humhub/modules\notification) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\notification"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:12 [127.0.0.1][1][3f8ru5da1c2uu5r8m9crn72bh3][error][application] Duplicated module "post"(protected/humhub/modules\post) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\post"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:12 [127.0.0.1][1][3f8ru5da1c2uu5r8m9crn72bh3][error][application] Duplicated module "queue"(protected/humhub/modules\queue) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\queue"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:12 [127.0.0.1][1][3f8ru5da1c2uu5r8m9crn72bh3][error][application] Duplicated module "recherche"(protected/humhub/modules\recherche) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\recherche"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:12 [127.0.0.1][1][3f8ru5da1c2uu5r8m9crn72bh3][error][application] Duplicated module "search"(protected/humhub/modules\search) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\search"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:12 [127.0.0.1][1][3f8ru5da1c2uu5r8m9crn72bh3][error][application] Duplicated module "space"(protected/humhub/modules\space) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\space"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:12 [127.0.0.1][1][3f8ru5da1c2uu5r8m9crn72bh3][error][application] Duplicated module "stream"(protected/humhub/modules\stream) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\stream"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:12 [127.0.0.1][1][3f8ru5da1c2uu5r8m9crn72bh3][error][application] Duplicated module "topic"(protected/humhub/modules\topic) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\topic"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:12 [127.0.0.1][1][3f8ru5da1c2uu5r8m9crn72bh3][error][application] Duplicated module "tour"(protected/humhub/modules\tour) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\tour"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:12 [127.0.0.1][1][3f8ru5da1c2uu5r8m9crn72bh3][error][application] Duplicated module "ui"(protected/humhub/modules\ui) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\ui"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:12 [127.0.0.1][1][3f8ru5da1c2uu5r8m9crn72bh3][error][application] Duplicated module "user"(protected/humhub/modules\user) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\user"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:12 [127.0.0.1][1][3f8ru5da1c2uu5r8m9crn72bh3][error][application] Duplicated module "web"(protected/humhub/modules\web) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\web"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:11 [127.0.0.1][1][3f8ru5da1c2uu5r8m9crn72bh3][info][application] $_GET = [
-    'r' => 'protected/humhub/modules/admin/controllers/SkillController.php'
-]
-
-$_SERVER = [
-    'HTTP_HOST' => 'humhub-1.8.1.test'
-    'HTTP_CONNECTION' => 'keep-alive'
-    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
-    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36'
-    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
-    'HTTP_REFERER' => 'http://humhub-1.8.1.test/index.php?r=admin%2Fuser%2Flist'
-    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
-    'HTTP_ACCEPT_LANGUAGE' => 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7'
-    'HTTP_COOKIE' => 'language=c6364c565cf4dee2a644888baff5cf0f2f210fb917bc8d8c701be93981be1e85a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22fr%22%3B%7D; _identity=bd5314151b4deb45ea86e9eb4dbb526c51ffad9e2d6adcf24e20b9182035c60ea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A50%3A%22%5B1%2C%22ef74d7cc-b662-4f7b-8284-8ac1169b1ff6%22%2C2592000%5D%22%3B%7D; PHPSESSID=3f8ru5da1c2uu5r8m9crn72bh3; _csrf=7afd0607d40495074e7ab13d6046b9ace03a57e0d866b0cc38b98b9719343faca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22e9wGOy0xE1lZEHJA6jDUG2YMITd8RUk9%22%3B%7D'
-    'PATH' => 'C:\\Program Files\\ImageMagick-7.0.11-Q16-HDRI;C:\\Program Files (x86)\\ImageMagick-7.0.10-Q16;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Symfony;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Users\\acs\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\acs\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\php;C:\\Users\\acs\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\acs\\AppData\\Roaming\\npm'
-    'SystemRoot' => 'C:\\Windows'
-    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
-    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
-    'WINDIR' => 'C:\\Windows'
-    'SERVER_SIGNATURE' => ''
-    'SERVER_SOFTWARE' => 'Apache/2.4.35 (Win64) OpenSSL/1.1.1d PHP/7.4.1'
-    'SERVER_NAME' => 'humhub-1.8.1.test'
-    'SERVER_ADDR' => '127.0.0.1'
-    'SERVER_PORT' => '80'
-    'REMOTE_ADDR' => '127.0.0.1'
-    'DOCUMENT_ROOT' => 'C:/laragon/www/humhub-1.8.1/'
-    'REQUEST_SCHEME' => 'http'
-    'CONTEXT_PREFIX' => ''
-    'CONTEXT_DOCUMENT_ROOT' => 'C:/laragon/www/humhub-1.8.1/'
-    'SERVER_ADMIN' => 'admin@example.com'
-    'SCRIPT_FILENAME' => 'C:/laragon/www/humhub-1.8.1/index.php'
-    'REMOTE_PORT' => '49154'
-    'GATEWAY_INTERFACE' => 'CGI/1.1'
-    'SERVER_PROTOCOL' => 'HTTP/1.1'
-    'REQUEST_METHOD' => 'GET'
-    'QUERY_STRING' => 'r=protected%2Fhumhub%2Fmodules%2Fadmin%2Fcontrollers%2FSkillController.php'
-    'REQUEST_URI' => '/index.php?r=protected%2Fhumhub%2Fmodules%2Fadmin%2Fcontrollers%2FSkillController.php'
-    'SCRIPT_NAME' => '/index.php'
-    'PHP_SELF' => '/index.php'
-    'REQUEST_TIME_FLOAT' => 1618825391.933
-    'REQUEST_TIME' => 1618825391
-]
-2021-04-19 09:43:14 [127.0.0.1][1][-][error][application] Duplicated module "activity"(protected/humhub/modules\activity) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\activity"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:14 [127.0.0.1][1][-][error][application] Duplicated module "admin"(protected/humhub/modules\admin) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\admin"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:14 [127.0.0.1][1][-][error][application] Duplicated module "comment"(protected/humhub/modules\comment) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\comment"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:14 [127.0.0.1][1][-][error][application] Duplicated module "content"(protected/humhub/modules\content) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\content"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:14 [127.0.0.1][1][-][error][application] Duplicated module "dashboard"(protected/humhub/modules\dashboard) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\dashboard"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:14 [127.0.0.1][1][-][error][application] Duplicated module "devtools"(protected/humhub/modules\devtools) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\devtools"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:14 [127.0.0.1][1][-][error][application] Duplicated module "directory"(protected/humhub/modules\directory) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\directory"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:14 [127.0.0.1][1][-][error][application] Duplicated module "file"(protected/humhub/modules\file) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\file"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:14 [127.0.0.1][1][-][error][application] Duplicated module "friendship"(protected/humhub/modules\friendship) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\friendship"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:14 [127.0.0.1][1][-][error][application] Duplicated module "installer"(protected/humhub/modules\installer) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\installer"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:14 [127.0.0.1][1][-][error][application] Duplicated module "ldap"(protected/humhub/modules\ldap) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\ldap"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:14 [127.0.0.1][1][-][error][application] Duplicated module "like"(protected/humhub/modules\like) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\like"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:14 [127.0.0.1][1][-][error][application] Duplicated module "live"(protected/humhub/modules\live) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\live"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:14 [127.0.0.1][1][-][error][application] Duplicated module "marketplace"(protected/humhub/modules\marketplace) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\marketplace"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:14 [127.0.0.1][1][-][error][application] Duplicated module "notification"(protected/humhub/modules\notification) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\notification"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:14 [127.0.0.1][1][-][error][application] Duplicated module "post"(protected/humhub/modules\post) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\post"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:14 [127.0.0.1][1][-][error][application] Duplicated module "queue"(protected/humhub/modules\queue) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\queue"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:14 [127.0.0.1][1][-][error][application] Duplicated module "recherche"(protected/humhub/modules\recherche) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\recherche"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:14 [127.0.0.1][1][-][error][application] Duplicated module "search"(protected/humhub/modules\search) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\search"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:14 [127.0.0.1][1][-][error][application] Duplicated module "space"(protected/humhub/modules\space) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\space"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:14 [127.0.0.1][1][-][error][application] Duplicated module "stream"(protected/humhub/modules\stream) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\stream"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:14 [127.0.0.1][1][-][error][application] Duplicated module "topic"(protected/humhub/modules\topic) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\topic"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:14 [127.0.0.1][1][-][error][application] Duplicated module "tour"(protected/humhub/modules\tour) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\tour"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:14 [127.0.0.1][1][-][error][application] Duplicated module "ui"(protected/humhub/modules\ui) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\ui"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:14 [127.0.0.1][1][-][error][application] Duplicated module "user"(protected/humhub/modules\user) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\user"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:14 [127.0.0.1][1][-][error][application] Duplicated module "web"(protected/humhub/modules\web) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\web"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:14 [127.0.0.1][1][-][info][application] $_GET = [
-    'r' => 'mail/mail/get-new-message-count-json'
+2021-04-20 15:04:22 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'live/poll'
+    'last' => '1618931039'
 ]
 
 $_SERVER = [
     'HTTP_HOST' => 'humhub-1.8.1.test'
     'HTTP_CONNECTION' => 'keep-alive'
     'HTTP_ACCEPT' => '*/*'
-    'HTTP_X_CSRF_TOKEN' => 'dy5Qm0jHbFrazj0KtIXe7K7jv-bfl87pkfKn-Yp1jOoSFyfcB75cIp__UVDxzZStmIn7s5ill6TYpsPB2CDn0w=='
+    'HTTP_X_CSRF_TOKEN' => '4iDymkiCpGtc1o-d5r6b_HNX57Z2_kcUHIHb0flrRLuTU6ToIrHKBTaU_vzX_82pPDOsxiTGdyFkrISAgRstzQ=='
     'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36'
     'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
-    'HTTP_REFERER' => 'http://humhub-1.8.1.test/index.php?r=protected%2Fhumhub%2Fmodules%2Fadmin%2Fcontrollers%2FSkillController.php'
+    'HTTP_REFERER' => 'http://humhub-1.8.1.test/index.php?r=admin%2Fskill'
     'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
     'HTTP_ACCEPT_LANGUAGE' => 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7'
-    'HTTP_COOKIE' => 'language=c6364c565cf4dee2a644888baff5cf0f2f210fb917bc8d8c701be93981be1e85a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22fr%22%3B%7D; _identity=bd5314151b4deb45ea86e9eb4dbb526c51ffad9e2d6adcf24e20b9182035c60ea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A50%3A%22%5B1%2C%22ef74d7cc-b662-4f7b-8284-8ac1169b1ff6%22%2C2592000%5D%22%3B%7D; PHPSESSID=3f8ru5da1c2uu5r8m9crn72bh3; _csrf=7afd0607d40495074e7ab13d6046b9ace03a57e0d866b0cc38b98b9719343faca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22e9wGOy0xE1lZEHJA6jDUG2YMITd8RUk9%22%3B%7D'
+    'HTTP_COOKIE' => 'language=c6364c565cf4dee2a644888baff5cf0f2f210fb917bc8d8c701be93981be1e85a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22fr%22%3B%7D; _identity=bd5314151b4deb45ea86e9eb4dbb526c51ffad9e2d6adcf24e20b9182035c60ea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A50%3A%22%5B1%2C%22ef74d7cc-b662-4f7b-8284-8ac1169b1ff6%22%2C2592000%5D%22%3B%7D; _csrf=9f593f6ba58c96e46408283c5f14a86e5608e52938911ae1f376e052b53bbebea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22qsVrj3nnjBqa1AVUOdKpR805x-_Qxpiv%22%3B%7D; PHPSESSID=m26atdje359mjmv1roh1c38sra'
     'PATH' => 'C:\\Program Files\\ImageMagick-7.0.11-Q16-HDRI;C:\\Program Files (x86)\\ImageMagick-7.0.10-Q16;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Symfony;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Users\\acs\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\acs\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\php;C:\\Users\\acs\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\acs\\AppData\\Roaming\\npm'
     'SystemRoot' => 'C:\\Windows'
     'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
@@ -726,282 +283,137 @@ $_SERVER = [
     'CONTEXT_DOCUMENT_ROOT' => 'C:/laragon/www/humhub-1.8.1/'
     'SERVER_ADMIN' => 'admin@example.com'
     'SCRIPT_FILENAME' => 'C:/laragon/www/humhub-1.8.1/index.php'
-    'REMOTE_PORT' => '49154'
+    'REMOTE_PORT' => '56207'
     'GATEWAY_INTERFACE' => 'CGI/1.1'
     'SERVER_PROTOCOL' => 'HTTP/1.1'
     'REQUEST_METHOD' => 'GET'
-    'QUERY_STRING' => 'r=mail%2Fmail%2Fget-new-message-count-json'
-    'REQUEST_URI' => '/index.php?r=mail%2Fmail%2Fget-new-message-count-json'
+    'QUERY_STRING' => 'r=live%2Fpoll&last=1618931039'
+    'REQUEST_URI' => '/index.php?r=live%2Fpoll&last=1618931039'
     'SCRIPT_NAME' => '/index.php'
     'PHP_SELF' => '/index.php'
-    'REQUEST_TIME_FLOAT' => 1618825394.104
-    'REQUEST_TIME' => 1618825394
+    'REQUEST_TIME_FLOAT' => 1618931062.113
+    'REQUEST_TIME' => 1618931062
 ]
-2021-04-19 09:43:14 [127.0.0.1][1][-][error][application] Duplicated module "activity"(protected/humhub/modules\activity) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\activity"
+2021-04-20 15:04:48 [127.0.0.1][1][-][error][application] Duplicated module "activity"(protected/humhub/modules\activity) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\activity"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:14 [127.0.0.1][1][-][error][application] Duplicated module "admin"(protected/humhub/modules\admin) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\admin"
+2021-04-20 15:04:48 [127.0.0.1][1][-][error][application] Duplicated module "admin"(protected/humhub/modules\admin) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\admin"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:14 [127.0.0.1][1][-][error][application] Duplicated module "comment"(protected/humhub/modules\comment) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\comment"
+2021-04-20 15:04:48 [127.0.0.1][1][-][error][application] Duplicated module "comment"(protected/humhub/modules\comment) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\comment"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:14 [127.0.0.1][1][-][error][application] Duplicated module "content"(protected/humhub/modules\content) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\content"
+2021-04-20 15:04:48 [127.0.0.1][1][-][error][application] Duplicated module "content"(protected/humhub/modules\content) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\content"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:14 [127.0.0.1][1][-][error][application] Duplicated module "dashboard"(protected/humhub/modules\dashboard) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\dashboard"
+2021-04-20 15:04:48 [127.0.0.1][1][-][error][application] Duplicated module "dashboard"(protected/humhub/modules\dashboard) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\dashboard"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:14 [127.0.0.1][1][-][error][application] Duplicated module "devtools"(protected/humhub/modules\devtools) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\devtools"
+2021-04-20 15:04:48 [127.0.0.1][1][-][error][application] Duplicated module "devtools"(protected/humhub/modules\devtools) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\devtools"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:14 [127.0.0.1][1][-][error][application] Duplicated module "directory"(protected/humhub/modules\directory) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\directory"
+2021-04-20 15:04:48 [127.0.0.1][1][-][error][application] Duplicated module "directory"(protected/humhub/modules\directory) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\directory"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:14 [127.0.0.1][1][-][error][application] Duplicated module "file"(protected/humhub/modules\file) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\file"
+2021-04-20 15:04:48 [127.0.0.1][1][-][error][application] Duplicated module "file"(protected/humhub/modules\file) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\file"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:14 [127.0.0.1][1][-][error][application] Duplicated module "friendship"(protected/humhub/modules\friendship) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\friendship"
+2021-04-20 15:04:48 [127.0.0.1][1][-][error][application] Duplicated module "friendship"(protected/humhub/modules\friendship) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\friendship"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:14 [127.0.0.1][1][-][error][application] Duplicated module "installer"(protected/humhub/modules\installer) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\installer"
+2021-04-20 15:04:48 [127.0.0.1][1][-][error][application] Duplicated module "installer"(protected/humhub/modules\installer) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\installer"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:14 [127.0.0.1][1][-][error][application] Duplicated module "ldap"(protected/humhub/modules\ldap) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\ldap"
+2021-04-20 15:04:48 [127.0.0.1][1][-][error][application] Duplicated module "ldap"(protected/humhub/modules\ldap) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\ldap"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:14 [127.0.0.1][1][-][error][application] Duplicated module "like"(protected/humhub/modules\like) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\like"
+2021-04-20 15:04:48 [127.0.0.1][1][-][error][application] Duplicated module "like"(protected/humhub/modules\like) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\like"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:14 [127.0.0.1][1][-][error][application] Duplicated module "live"(protected/humhub/modules\live) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\live"
+2021-04-20 15:04:48 [127.0.0.1][1][-][error][application] Duplicated module "live"(protected/humhub/modules\live) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\live"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:14 [127.0.0.1][1][-][error][application] Duplicated module "marketplace"(protected/humhub/modules\marketplace) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\marketplace"
+2021-04-20 15:04:48 [127.0.0.1][1][-][error][application] Duplicated module "marketplace"(protected/humhub/modules\marketplace) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\marketplace"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:14 [127.0.0.1][1][-][error][application] Duplicated module "notification"(protected/humhub/modules\notification) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\notification"
+2021-04-20 15:04:48 [127.0.0.1][1][-][error][application] Duplicated module "notification"(protected/humhub/modules\notification) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\notification"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:14 [127.0.0.1][1][-][error][application] Duplicated module "post"(protected/humhub/modules\post) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\post"
+2021-04-20 15:04:48 [127.0.0.1][1][-][error][application] Duplicated module "post"(protected/humhub/modules\post) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\post"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:14 [127.0.0.1][1][-][error][application] Duplicated module "queue"(protected/humhub/modules\queue) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\queue"
+2021-04-20 15:04:48 [127.0.0.1][1][-][error][application] Duplicated module "queue"(protected/humhub/modules\queue) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\queue"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:14 [127.0.0.1][1][-][error][application] Duplicated module "recherche"(protected/humhub/modules\recherche) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\recherche"
+2021-04-20 15:04:48 [127.0.0.1][1][-][error][application] Duplicated module "recherche"(protected/humhub/modules\recherche) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\recherche"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:14 [127.0.0.1][1][-][error][application] Duplicated module "search"(protected/humhub/modules\search) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\search"
+2021-04-20 15:04:48 [127.0.0.1][1][-][error][application] Duplicated module "search"(protected/humhub/modules\search) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\search"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:14 [127.0.0.1][1][-][error][application] Duplicated module "space"(protected/humhub/modules\space) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\space"
+2021-04-20 15:04:48 [127.0.0.1][1][-][error][application] Duplicated module "space"(protected/humhub/modules\space) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\space"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:14 [127.0.0.1][1][-][error][application] Duplicated module "stream"(protected/humhub/modules\stream) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\stream"
+2021-04-20 15:04:48 [127.0.0.1][1][-][error][application] Duplicated module "stream"(protected/humhub/modules\stream) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\stream"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:14 [127.0.0.1][1][-][error][application] Duplicated module "topic"(protected/humhub/modules\topic) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\topic"
+2021-04-20 15:04:48 [127.0.0.1][1][-][error][application] Duplicated module "topic"(protected/humhub/modules\topic) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\topic"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:14 [127.0.0.1][1][-][error][application] Duplicated module "tour"(protected/humhub/modules\tour) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\tour"
+2021-04-20 15:04:48 [127.0.0.1][1][-][error][application] Duplicated module "tour"(protected/humhub/modules\tour) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\tour"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:14 [127.0.0.1][1][-][error][application] Duplicated module "ui"(protected/humhub/modules\ui) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\ui"
+2021-04-20 15:04:48 [127.0.0.1][1][-][error][application] Duplicated module "ui"(protected/humhub/modules\ui) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\ui"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:14 [127.0.0.1][1][-][error][application] Duplicated module "user"(protected/humhub/modules\user) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\user"
+2021-04-20 15:04:48 [127.0.0.1][1][-][error][application] Duplicated module "user"(protected/humhub/modules\user) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\user"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:14 [127.0.0.1][1][-][error][application] Duplicated module "web"(protected/humhub/modules\web) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\web"
+2021-04-20 15:04:48 [127.0.0.1][1][-][error][application] Duplicated module "web"(protected/humhub/modules\web) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\web"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:14 [127.0.0.1][1][-][info][application] $_GET = [
-    'r' => 'admin/user/list'
-]
-
-$_SERVER = [
-    'HTTP_HOST' => 'humhub-1.8.1.test'
-    'HTTP_CONNECTION' => 'keep-alive'
-    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
-    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36'
-    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
-    'HTTP_REFERER' => 'http://humhub-1.8.1.test/index.php?r=recherche%2Findex'
-    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
-    'HTTP_ACCEPT_LANGUAGE' => 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7'
-    'HTTP_COOKIE' => 'language=c6364c565cf4dee2a644888baff5cf0f2f210fb917bc8d8c701be93981be1e85a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22fr%22%3B%7D; _identity=bd5314151b4deb45ea86e9eb4dbb526c51ffad9e2d6adcf24e20b9182035c60ea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A50%3A%22%5B1%2C%22ef74d7cc-b662-4f7b-8284-8ac1169b1ff6%22%2C2592000%5D%22%3B%7D; PHPSESSID=3f8ru5da1c2uu5r8m9crn72bh3; _csrf=7afd0607d40495074e7ab13d6046b9ace03a57e0d866b0cc38b98b9719343faca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22e9wGOy0xE1lZEHJA6jDUG2YMITd8RUk9%22%3B%7D'
-    'PATH' => 'C:\\Program Files\\ImageMagick-7.0.11-Q16-HDRI;C:\\Program Files (x86)\\ImageMagick-7.0.10-Q16;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Symfony;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Users\\acs\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\acs\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\php;C:\\Users\\acs\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\acs\\AppData\\Roaming\\npm'
-    'SystemRoot' => 'C:\\Windows'
-    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
-    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
-    'WINDIR' => 'C:\\Windows'
-    'SERVER_SIGNATURE' => ''
-    'SERVER_SOFTWARE' => 'Apache/2.4.35 (Win64) OpenSSL/1.1.1d PHP/7.4.1'
-    'SERVER_NAME' => 'humhub-1.8.1.test'
-    'SERVER_ADDR' => '127.0.0.1'
-    'SERVER_PORT' => '80'
-    'REMOTE_ADDR' => '127.0.0.1'
-    'DOCUMENT_ROOT' => 'C:/laragon/www/humhub-1.8.1/'
-    'REQUEST_SCHEME' => 'http'
-    'CONTEXT_PREFIX' => ''
-    'CONTEXT_DOCUMENT_ROOT' => 'C:/laragon/www/humhub-1.8.1/'
-    'SERVER_ADMIN' => 'admin@example.com'
-    'SCRIPT_FILENAME' => 'C:/laragon/www/humhub-1.8.1/index.php'
-    'REMOTE_PORT' => '49162'
-    'GATEWAY_INTERFACE' => 'CGI/1.1'
-    'SERVER_PROTOCOL' => 'HTTP/1.1'
-    'REQUEST_METHOD' => 'GET'
-    'QUERY_STRING' => 'r=admin%2Fuser%2Flist'
-    'REQUEST_URI' => '/index.php?r=admin%2Fuser%2Flist'
-    'SCRIPT_NAME' => '/index.php'
-    'PHP_SELF' => '/index.php'
-    'REQUEST_TIME_FLOAT' => 1618825394.823
-    'REQUEST_TIME' => 1618825394
-]
-2021-04-19 09:43:17 [127.0.0.1][1][-][error][application] Duplicated module "activity"(protected/humhub/modules\activity) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\activity"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:17 [127.0.0.1][1][-][error][application] Duplicated module "admin"(protected/humhub/modules\admin) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\admin"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:17 [127.0.0.1][1][-][error][application] Duplicated module "comment"(protected/humhub/modules\comment) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\comment"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:17 [127.0.0.1][1][-][error][application] Duplicated module "content"(protected/humhub/modules\content) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\content"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:17 [127.0.0.1][1][-][error][application] Duplicated module "dashboard"(protected/humhub/modules\dashboard) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\dashboard"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:17 [127.0.0.1][1][-][error][application] Duplicated module "devtools"(protected/humhub/modules\devtools) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\devtools"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:17 [127.0.0.1][1][-][error][application] Duplicated module "directory"(protected/humhub/modules\directory) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\directory"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:17 [127.0.0.1][1][-][error][application] Duplicated module "file"(protected/humhub/modules\file) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\file"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:17 [127.0.0.1][1][-][error][application] Duplicated module "friendship"(protected/humhub/modules\friendship) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\friendship"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:17 [127.0.0.1][1][-][error][application] Duplicated module "installer"(protected/humhub/modules\installer) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\installer"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:17 [127.0.0.1][1][-][error][application] Duplicated module "ldap"(protected/humhub/modules\ldap) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\ldap"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:17 [127.0.0.1][1][-][error][application] Duplicated module "like"(protected/humhub/modules\like) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\like"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:17 [127.0.0.1][1][-][error][application] Duplicated module "live"(protected/humhub/modules\live) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\live"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:17 [127.0.0.1][1][-][error][application] Duplicated module "marketplace"(protected/humhub/modules\marketplace) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\marketplace"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:17 [127.0.0.1][1][-][error][application] Duplicated module "notification"(protected/humhub/modules\notification) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\notification"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:17 [127.0.0.1][1][-][error][application] Duplicated module "post"(protected/humhub/modules\post) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\post"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:17 [127.0.0.1][1][-][error][application] Duplicated module "queue"(protected/humhub/modules\queue) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\queue"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:17 [127.0.0.1][1][-][error][application] Duplicated module "recherche"(protected/humhub/modules\recherche) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\recherche"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:17 [127.0.0.1][1][-][error][application] Duplicated module "search"(protected/humhub/modules\search) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\search"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:17 [127.0.0.1][1][-][error][application] Duplicated module "space"(protected/humhub/modules\space) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\space"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:17 [127.0.0.1][1][-][error][application] Duplicated module "stream"(protected/humhub/modules\stream) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\stream"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:17 [127.0.0.1][1][-][error][application] Duplicated module "topic"(protected/humhub/modules\topic) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\topic"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:17 [127.0.0.1][1][-][error][application] Duplicated module "tour"(protected/humhub/modules\tour) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\tour"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:17 [127.0.0.1][1][-][error][application] Duplicated module "ui"(protected/humhub/modules\ui) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\ui"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:17 [127.0.0.1][1][-][error][application] Duplicated module "user"(protected/humhub/modules\user) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\user"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:17 [127.0.0.1][1][-][error][application] Duplicated module "web"(protected/humhub/modules\web) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\web"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:17 [127.0.0.1][1][-][info][application] $_GET = [
-    'r' => 'mail/mail/get-new-message-count-json'
+2021-04-20 15:04:48 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'live/poll'
+    'last' => '1618931062'
 ]
 
 $_SERVER = [
     'HTTP_HOST' => 'humhub-1.8.1.test'
     'HTTP_CONNECTION' => 'keep-alive'
     'HTTP_ACCEPT' => '*/*'
-    'HTTP_X_CSRF_TOKEN' => 'rx3C31yBkr0e7G9DzvgzDdsY3dbLY0cE5V1F0lm_D_rKJLWYE_iixVvdAxmLsHlM7XKZg4xRHkmsCSHqC-pkww=='
+    'HTTP_X_CSRF_TOKEN' => '4iDymkiCpGtc1o-d5r6b_HNX57Z2_kcUHIHb0flrRLuTU6ToIrHKBTaU_vzX_82pPDOsxiTGdyFkrISAgRstzQ=='
     'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36'
     'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
-    'HTTP_REFERER' => 'http://humhub-1.8.1.test/index.php?r=admin%2Fuser%2Flist'
+    'HTTP_REFERER' => 'http://humhub-1.8.1.test/index.php?r=admin%2Fskill'
     'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
     'HTTP_ACCEPT_LANGUAGE' => 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7'
-    'HTTP_COOKIE' => 'language=c6364c565cf4dee2a644888baff5cf0f2f210fb917bc8d8c701be93981be1e85a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22fr%22%3B%7D; _identity=bd5314151b4deb45ea86e9eb4dbb526c51ffad9e2d6adcf24e20b9182035c60ea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A50%3A%22%5B1%2C%22ef74d7cc-b662-4f7b-8284-8ac1169b1ff6%22%2C2592000%5D%22%3B%7D; PHPSESSID=3f8ru5da1c2uu5r8m9crn72bh3; _csrf=7afd0607d40495074e7ab13d6046b9ace03a57e0d866b0cc38b98b9719343faca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22e9wGOy0xE1lZEHJA6jDUG2YMITd8RUk9%22%3B%7D'
+    'HTTP_COOKIE' => 'language=c6364c565cf4dee2a644888baff5cf0f2f210fb917bc8d8c701be93981be1e85a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22fr%22%3B%7D; _identity=bd5314151b4deb45ea86e9eb4dbb526c51ffad9e2d6adcf24e20b9182035c60ea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A50%3A%22%5B1%2C%22ef74d7cc-b662-4f7b-8284-8ac1169b1ff6%22%2C2592000%5D%22%3B%7D; _csrf=9f593f6ba58c96e46408283c5f14a86e5608e52938911ae1f376e052b53bbebea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22qsVrj3nnjBqa1AVUOdKpR805x-_Qxpiv%22%3B%7D; PHPSESSID=m26atdje359mjmv1roh1c38sra'
     'PATH' => 'C:\\Program Files\\ImageMagick-7.0.11-Q16-HDRI;C:\\Program Files (x86)\\ImageMagick-7.0.10-Q16;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Symfony;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Users\\acs\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\acs\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\php;C:\\Users\\acs\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\acs\\AppData\\Roaming\\npm'
     'SystemRoot' => 'C:\\Windows'
     'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
@@ -1019,427 +431,137 @@ $_SERVER = [
     'CONTEXT_DOCUMENT_ROOT' => 'C:/laragon/www/humhub-1.8.1/'
     'SERVER_ADMIN' => 'admin@example.com'
     'SCRIPT_FILENAME' => 'C:/laragon/www/humhub-1.8.1/index.php'
-    'REMOTE_PORT' => '49162'
+    'REMOTE_PORT' => '56222'
     'GATEWAY_INTERFACE' => 'CGI/1.1'
     'SERVER_PROTOCOL' => 'HTTP/1.1'
     'REQUEST_METHOD' => 'GET'
-    'QUERY_STRING' => 'r=mail%2Fmail%2Fget-new-message-count-json'
-    'REQUEST_URI' => '/index.php?r=mail%2Fmail%2Fget-new-message-count-json'
+    'QUERY_STRING' => 'r=live%2Fpoll&last=1618931062'
+    'REQUEST_URI' => '/index.php?r=live%2Fpoll&last=1618931062'
     'SCRIPT_NAME' => '/index.php'
     'PHP_SELF' => '/index.php'
-    'REQUEST_TIME_FLOAT' => 1618825397.093
-    'REQUEST_TIME' => 1618825397
+    'REQUEST_TIME_FLOAT' => 1618931088.122
+    'REQUEST_TIME' => 1618931088
 ]
-2021-04-19 09:43:21 [127.0.0.1][-][-][error][application] Duplicated module "activity"(protected/humhub/modules\activity) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\activity"
+2021-04-20 15:05:17 [127.0.0.1][1][-][error][application] Duplicated module "activity"(protected/humhub/modules\activity) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\activity"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:21 [127.0.0.1][-][-][error][application] Duplicated module "admin"(protected/humhub/modules\admin) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\admin"
+2021-04-20 15:05:17 [127.0.0.1][1][-][error][application] Duplicated module "admin"(protected/humhub/modules\admin) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\admin"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:21 [127.0.0.1][-][-][error][application] Duplicated module "comment"(protected/humhub/modules\comment) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\comment"
+2021-04-20 15:05:17 [127.0.0.1][1][-][error][application] Duplicated module "comment"(protected/humhub/modules\comment) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\comment"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:21 [127.0.0.1][-][-][error][application] Duplicated module "content"(protected/humhub/modules\content) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\content"
+2021-04-20 15:05:17 [127.0.0.1][1][-][error][application] Duplicated module "content"(protected/humhub/modules\content) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\content"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:21 [127.0.0.1][-][-][error][application] Duplicated module "dashboard"(protected/humhub/modules\dashboard) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\dashboard"
+2021-04-20 15:05:17 [127.0.0.1][1][-][error][application] Duplicated module "dashboard"(protected/humhub/modules\dashboard) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\dashboard"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:21 [127.0.0.1][-][-][error][application] Duplicated module "devtools"(protected/humhub/modules\devtools) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\devtools"
+2021-04-20 15:05:17 [127.0.0.1][1][-][error][application] Duplicated module "devtools"(protected/humhub/modules\devtools) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\devtools"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:21 [127.0.0.1][-][-][error][application] Duplicated module "directory"(protected/humhub/modules\directory) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\directory"
+2021-04-20 15:05:17 [127.0.0.1][1][-][error][application] Duplicated module "directory"(protected/humhub/modules\directory) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\directory"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:21 [127.0.0.1][-][-][error][application] Duplicated module "file"(protected/humhub/modules\file) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\file"
+2021-04-20 15:05:17 [127.0.0.1][1][-][error][application] Duplicated module "file"(protected/humhub/modules\file) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\file"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:21 [127.0.0.1][-][-][error][application] Duplicated module "friendship"(protected/humhub/modules\friendship) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\friendship"
+2021-04-20 15:05:17 [127.0.0.1][1][-][error][application] Duplicated module "friendship"(protected/humhub/modules\friendship) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\friendship"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:21 [127.0.0.1][-][-][error][application] Duplicated module "installer"(protected/humhub/modules\installer) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\installer"
+2021-04-20 15:05:17 [127.0.0.1][1][-][error][application] Duplicated module "installer"(protected/humhub/modules\installer) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\installer"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:21 [127.0.0.1][-][-][error][application] Duplicated module "ldap"(protected/humhub/modules\ldap) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\ldap"
+2021-04-20 15:05:17 [127.0.0.1][1][-][error][application] Duplicated module "ldap"(protected/humhub/modules\ldap) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\ldap"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:21 [127.0.0.1][-][-][error][application] Duplicated module "like"(protected/humhub/modules\like) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\like"
+2021-04-20 15:05:17 [127.0.0.1][1][-][error][application] Duplicated module "like"(protected/humhub/modules\like) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\like"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:21 [127.0.0.1][-][-][error][application] Duplicated module "live"(protected/humhub/modules\live) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\live"
+2021-04-20 15:05:17 [127.0.0.1][1][-][error][application] Duplicated module "live"(protected/humhub/modules\live) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\live"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:21 [127.0.0.1][-][-][error][application] Duplicated module "marketplace"(protected/humhub/modules\marketplace) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\marketplace"
+2021-04-20 15:05:17 [127.0.0.1][1][-][error][application] Duplicated module "marketplace"(protected/humhub/modules\marketplace) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\marketplace"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:21 [127.0.0.1][-][-][error][application] Duplicated module "notification"(protected/humhub/modules\notification) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\notification"
+2021-04-20 15:05:17 [127.0.0.1][1][-][error][application] Duplicated module "notification"(protected/humhub/modules\notification) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\notification"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:21 [127.0.0.1][-][-][error][application] Duplicated module "post"(protected/humhub/modules\post) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\post"
+2021-04-20 15:05:17 [127.0.0.1][1][-][error][application] Duplicated module "post"(protected/humhub/modules\post) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\post"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:21 [127.0.0.1][-][-][error][application] Duplicated module "queue"(protected/humhub/modules\queue) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\queue"
+2021-04-20 15:05:17 [127.0.0.1][1][-][error][application] Duplicated module "queue"(protected/humhub/modules\queue) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\queue"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:21 [127.0.0.1][-][-][error][application] Duplicated module "recherche"(protected/humhub/modules\recherche) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\recherche"
+2021-04-20 15:05:17 [127.0.0.1][1][-][error][application] Duplicated module "recherche"(protected/humhub/modules\recherche) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\recherche"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:21 [127.0.0.1][-][-][error][application] Duplicated module "search"(protected/humhub/modules\search) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\search"
+2021-04-20 15:05:17 [127.0.0.1][1][-][error][application] Duplicated module "search"(protected/humhub/modules\search) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\search"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:21 [127.0.0.1][-][-][error][application] Duplicated module "space"(protected/humhub/modules\space) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\space"
+2021-04-20 15:05:17 [127.0.0.1][1][-][error][application] Duplicated module "space"(protected/humhub/modules\space) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\space"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:21 [127.0.0.1][-][-][error][application] Duplicated module "stream"(protected/humhub/modules\stream) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\stream"
+2021-04-20 15:05:17 [127.0.0.1][1][-][error][application] Duplicated module "stream"(protected/humhub/modules\stream) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\stream"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:21 [127.0.0.1][-][-][error][application] Duplicated module "topic"(protected/humhub/modules\topic) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\topic"
+2021-04-20 15:05:17 [127.0.0.1][1][-][error][application] Duplicated module "topic"(protected/humhub/modules\topic) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\topic"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:21 [127.0.0.1][-][-][error][application] Duplicated module "tour"(protected/humhub/modules\tour) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\tour"
+2021-04-20 15:05:17 [127.0.0.1][1][-][error][application] Duplicated module "tour"(protected/humhub/modules\tour) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\tour"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:21 [127.0.0.1][-][-][error][application] Duplicated module "ui"(protected/humhub/modules\ui) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\ui"
+2021-04-20 15:05:17 [127.0.0.1][1][-][error][application] Duplicated module "ui"(protected/humhub/modules\ui) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\ui"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:21 [127.0.0.1][-][-][error][application] Duplicated module "user"(protected/humhub/modules\user) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\user"
+2021-04-20 15:05:17 [127.0.0.1][1][-][error][application] Duplicated module "user"(protected/humhub/modules\user) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\user"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:21 [127.0.0.1][-][-][error][application] Duplicated module "web"(protected/humhub/modules\web) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\web"
+2021-04-20 15:05:17 [127.0.0.1][1][-][error][application] Duplicated module "web"(protected/humhub/modules\web) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\web"
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
     in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:21 [127.0.0.1][-][-][info][application] $_GET = [
-    'r' => 'web/pwa-manifest/index'
-]
-
-$_SERVER = [
-    'HTTP_HOST' => 'humhub-1.8.1.test'
-    'HTTP_CONNECTION' => 'keep-alive'
-    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36'
-    'HTTP_ACCEPT' => '*/*'
-    'HTTP_REFERER' => 'http://humhub-1.8.1.test/index.php?r=admin%2Fuser%2Flist'
-    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
-    'HTTP_ACCEPT_LANGUAGE' => 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7'
-    'PATH' => 'C:\\Program Files\\ImageMagick-7.0.11-Q16-HDRI;C:\\Program Files (x86)\\ImageMagick-7.0.10-Q16;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Symfony;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Users\\acs\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\acs\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\php;C:\\Users\\acs\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\acs\\AppData\\Roaming\\npm'
-    'SystemRoot' => 'C:\\Windows'
-    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
-    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
-    'WINDIR' => 'C:\\Windows'
-    'SERVER_SIGNATURE' => ''
-    'SERVER_SOFTWARE' => 'Apache/2.4.35 (Win64) OpenSSL/1.1.1d PHP/7.4.1'
-    'SERVER_NAME' => 'humhub-1.8.1.test'
-    'SERVER_ADDR' => '127.0.0.1'
-    'SERVER_PORT' => '80'
-    'REMOTE_ADDR' => '127.0.0.1'
-    'DOCUMENT_ROOT' => 'C:/laragon/www/humhub-1.8.1/'
-    'REQUEST_SCHEME' => 'http'
-    'CONTEXT_PREFIX' => ''
-    'CONTEXT_DOCUMENT_ROOT' => 'C:/laragon/www/humhub-1.8.1/'
-    'SERVER_ADMIN' => 'admin@example.com'
-    'SCRIPT_FILENAME' => 'C:/laragon/www/humhub-1.8.1/index.php'
-    'REMOTE_PORT' => '49166'
-    'GATEWAY_INTERFACE' => 'CGI/1.1'
-    'SERVER_PROTOCOL' => 'HTTP/1.1'
-    'REQUEST_METHOD' => 'GET'
-    'QUERY_STRING' => 'r=web%2Fpwa-manifest%2Findex'
-    'REQUEST_URI' => '/index.php?r=web%2Fpwa-manifest%2Findex'
-    'SCRIPT_NAME' => '/index.php'
-    'PHP_SELF' => '/index.php'
-    'REQUEST_TIME_FLOAT' => 1618825401.048
-    'REQUEST_TIME' => 1618825401
-]
-2021-04-19 09:43:52 [127.0.0.1][1][-][error][application] Duplicated module "activity"(protected/humhub/modules\activity) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\activity"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:52 [127.0.0.1][1][-][error][application] Duplicated module "admin"(protected/humhub/modules\admin) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\admin"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:52 [127.0.0.1][1][-][error][application] Duplicated module "comment"(protected/humhub/modules\comment) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\comment"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:52 [127.0.0.1][1][-][error][application] Duplicated module "content"(protected/humhub/modules\content) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\content"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:52 [127.0.0.1][1][-][error][application] Duplicated module "dashboard"(protected/humhub/modules\dashboard) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\dashboard"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:52 [127.0.0.1][1][-][error][application] Duplicated module "devtools"(protected/humhub/modules\devtools) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\devtools"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:52 [127.0.0.1][1][-][error][application] Duplicated module "directory"(protected/humhub/modules\directory) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\directory"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:52 [127.0.0.1][1][-][error][application] Duplicated module "file"(protected/humhub/modules\file) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\file"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:52 [127.0.0.1][1][-][error][application] Duplicated module "friendship"(protected/humhub/modules\friendship) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\friendship"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:52 [127.0.0.1][1][-][error][application] Duplicated module "installer"(protected/humhub/modules\installer) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\installer"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:52 [127.0.0.1][1][-][error][application] Duplicated module "ldap"(protected/humhub/modules\ldap) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\ldap"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:52 [127.0.0.1][1][-][error][application] Duplicated module "like"(protected/humhub/modules\like) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\like"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:52 [127.0.0.1][1][-][error][application] Duplicated module "live"(protected/humhub/modules\live) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\live"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:52 [127.0.0.1][1][-][error][application] Duplicated module "marketplace"(protected/humhub/modules\marketplace) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\marketplace"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:52 [127.0.0.1][1][-][error][application] Duplicated module "notification"(protected/humhub/modules\notification) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\notification"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:52 [127.0.0.1][1][-][error][application] Duplicated module "post"(protected/humhub/modules\post) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\post"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:52 [127.0.0.1][1][-][error][application] Duplicated module "queue"(protected/humhub/modules\queue) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\queue"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:52 [127.0.0.1][1][-][error][application] Duplicated module "recherche"(protected/humhub/modules\recherche) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\recherche"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:52 [127.0.0.1][1][-][error][application] Duplicated module "search"(protected/humhub/modules\search) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\search"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:52 [127.0.0.1][1][-][error][application] Duplicated module "space"(protected/humhub/modules\space) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\space"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:52 [127.0.0.1][1][-][error][application] Duplicated module "stream"(protected/humhub/modules\stream) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\stream"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:52 [127.0.0.1][1][-][error][application] Duplicated module "topic"(protected/humhub/modules\topic) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\topic"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:52 [127.0.0.1][1][-][error][application] Duplicated module "tour"(protected/humhub/modules\tour) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\tour"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:52 [127.0.0.1][1][-][error][application] Duplicated module "ui"(protected/humhub/modules\ui) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\ui"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:52 [127.0.0.1][1][-][error][application] Duplicated module "user"(protected/humhub/modules\user) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\user"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:52 [127.0.0.1][1][-][error][application] Duplicated module "web"(protected/humhub/modules\web) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\web"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:51 [127.0.0.1][1][-][info][application] $_GET = [
-    'r' => 'admin/user/list'
-]
-
-$_SERVER = [
-    'HTTP_HOST' => 'humhub-1.8.1.test'
-    'HTTP_CONNECTION' => 'keep-alive'
-    'HTTP_CACHE_CONTROL' => 'max-age=0'
-    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
-    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36'
-    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
-    'HTTP_REFERER' => 'http://humhub-1.8.1.test/index.php?r=recherche%2Findex'
-    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
-    'HTTP_ACCEPT_LANGUAGE' => 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7'
-    'HTTP_COOKIE' => 'language=c6364c565cf4dee2a644888baff5cf0f2f210fb917bc8d8c701be93981be1e85a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22fr%22%3B%7D; _identity=bd5314151b4deb45ea86e9eb4dbb526c51ffad9e2d6adcf24e20b9182035c60ea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A50%3A%22%5B1%2C%22ef74d7cc-b662-4f7b-8284-8ac1169b1ff6%22%2C2592000%5D%22%3B%7D; PHPSESSID=3f8ru5da1c2uu5r8m9crn72bh3; _csrf=7afd0607d40495074e7ab13d6046b9ace03a57e0d866b0cc38b98b9719343faca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22e9wGOy0xE1lZEHJA6jDUG2YMITd8RUk9%22%3B%7D'
-    'PATH' => 'C:\\Program Files\\ImageMagick-7.0.11-Q16-HDRI;C:\\Program Files (x86)\\ImageMagick-7.0.10-Q16;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Symfony;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Users\\acs\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\acs\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\php;C:\\Users\\acs\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\acs\\AppData\\Roaming\\npm'
-    'SystemRoot' => 'C:\\Windows'
-    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
-    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
-    'WINDIR' => 'C:\\Windows'
-    'SERVER_SIGNATURE' => ''
-    'SERVER_SOFTWARE' => 'Apache/2.4.35 (Win64) OpenSSL/1.1.1d PHP/7.4.1'
-    'SERVER_NAME' => 'humhub-1.8.1.test'
-    'SERVER_ADDR' => '127.0.0.1'
-    'SERVER_PORT' => '80'
-    'REMOTE_ADDR' => '127.0.0.1'
-    'DOCUMENT_ROOT' => 'C:/laragon/www/humhub-1.8.1/'
-    'REQUEST_SCHEME' => 'http'
-    'CONTEXT_PREFIX' => ''
-    'CONTEXT_DOCUMENT_ROOT' => 'C:/laragon/www/humhub-1.8.1/'
-    'SERVER_ADMIN' => 'admin@example.com'
-    'SCRIPT_FILENAME' => 'C:/laragon/www/humhub-1.8.1/index.php'
-    'REMOTE_PORT' => '49189'
-    'GATEWAY_INTERFACE' => 'CGI/1.1'
-    'SERVER_PROTOCOL' => 'HTTP/1.1'
-    'REQUEST_METHOD' => 'GET'
-    'QUERY_STRING' => 'r=admin%2Fuser%2Flist'
-    'REQUEST_URI' => '/index.php?r=admin%2Fuser%2Flist'
-    'SCRIPT_NAME' => '/index.php'
-    'PHP_SELF' => '/index.php'
-    'REQUEST_TIME_FLOAT' => 1618825431.896
-    'REQUEST_TIME' => 1618825431
-]
-2021-04-19 09:43:54 [127.0.0.1][1][-][error][application] Duplicated module "activity"(protected/humhub/modules\activity) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\activity"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:54 [127.0.0.1][1][-][error][application] Duplicated module "admin"(protected/humhub/modules\admin) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\admin"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:54 [127.0.0.1][1][-][error][application] Duplicated module "comment"(protected/humhub/modules\comment) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\comment"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:54 [127.0.0.1][1][-][error][application] Duplicated module "content"(protected/humhub/modules\content) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\content"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:54 [127.0.0.1][1][-][error][application] Duplicated module "dashboard"(protected/humhub/modules\dashboard) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\dashboard"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:54 [127.0.0.1][1][-][error][application] Duplicated module "devtools"(protected/humhub/modules\devtools) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\devtools"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:54 [127.0.0.1][1][-][error][application] Duplicated module "directory"(protected/humhub/modules\directory) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\directory"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:54 [127.0.0.1][1][-][error][application] Duplicated module "file"(protected/humhub/modules\file) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\file"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:54 [127.0.0.1][1][-][error][application] Duplicated module "friendship"(protected/humhub/modules\friendship) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\friendship"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:54 [127.0.0.1][1][-][error][application] Duplicated module "installer"(protected/humhub/modules\installer) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\installer"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:54 [127.0.0.1][1][-][error][application] Duplicated module "ldap"(protected/humhub/modules\ldap) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\ldap"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:54 [127.0.0.1][1][-][error][application] Duplicated module "like"(protected/humhub/modules\like) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\like"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:54 [127.0.0.1][1][-][error][application] Duplicated module "live"(protected/humhub/modules\live) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\live"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:54 [127.0.0.1][1][-][error][application] Duplicated module "marketplace"(protected/humhub/modules\marketplace) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\marketplace"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:54 [127.0.0.1][1][-][error][application] Duplicated module "notification"(protected/humhub/modules\notification) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\notification"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:54 [127.0.0.1][1][-][error][application] Duplicated module "post"(protected/humhub/modules\post) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\post"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:54 [127.0.0.1][1][-][error][application] Duplicated module "queue"(protected/humhub/modules\queue) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\queue"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:54 [127.0.0.1][1][-][error][application] Duplicated module "recherche"(protected/humhub/modules\recherche) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\recherche"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:54 [127.0.0.1][1][-][error][application] Duplicated module "search"(protected/humhub/modules\search) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\search"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:54 [127.0.0.1][1][-][error][application] Duplicated module "space"(protected/humhub/modules\space) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\space"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:54 [127.0.0.1][1][-][error][application] Duplicated module "stream"(protected/humhub/modules\stream) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\stream"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:54 [127.0.0.1][1][-][error][application] Duplicated module "topic"(protected/humhub/modules\topic) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\topic"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:54 [127.0.0.1][1][-][error][application] Duplicated module "tour"(protected/humhub/modules\tour) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\tour"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:54 [127.0.0.1][1][-][error][application] Duplicated module "ui"(protected/humhub/modules\ui) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\ui"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:54 [127.0.0.1][1][-][error][application] Duplicated module "user"(protected/humhub/modules\user) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\user"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:54 [127.0.0.1][1][-][error][application] Duplicated module "web"(protected/humhub/modules\web) is already loaded from the folder "C:\laragon\www\humhub-1.8.1/protected/humhub/modules\web"
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:79
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:48
-    in C:\laragon\www\humhub-1.8.1\protected\humhub\components\bootstrap\ModuleAutoLoader.php:34
-2021-04-19 09:43:54 [127.0.0.1][1][-][info][application] $_GET = [
-    'r' => 'mail/mail/get-new-message-count-json'
+2021-04-20 15:05:17 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'live/poll'
+    'last' => '1618931088'
 ]
 
 $_SERVER = [
     'HTTP_HOST' => 'humhub-1.8.1.test'
     'HTTP_CONNECTION' => 'keep-alive'
     'HTTP_ACCEPT' => '*/*'
-    'HTTP_X_CSRF_TOKEN' => 'okABZekFlAivlUlstaiWTAQnbXormY91opqFU7_-jojHeXYipnykcOqkJTbw4NwNMk0pL2yr1jjrzuFr7avlsQ=='
+    'HTTP_X_CSRF_TOKEN' => '4iDymkiCpGtc1o-d5r6b_HNX57Z2_kcUHIHb0flrRLuTU6ToIrHKBTaU_vzX_82pPDOsxiTGdyFkrISAgRstzQ=='
     'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36'
     'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
-    'HTTP_REFERER' => 'http://humhub-1.8.1.test/index.php?r=admin%2Fuser%2Flist'
+    'HTTP_REFERER' => 'http://humhub-1.8.1.test/index.php?r=admin%2Fskill'
     'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
     'HTTP_ACCEPT_LANGUAGE' => 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7'
-    'HTTP_COOKIE' => 'language=c6364c565cf4dee2a644888baff5cf0f2f210fb917bc8d8c701be93981be1e85a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22fr%22%3B%7D; _identity=bd5314151b4deb45ea86e9eb4dbb526c51ffad9e2d6adcf24e20b9182035c60ea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A50%3A%22%5B1%2C%22ef74d7cc-b662-4f7b-8284-8ac1169b1ff6%22%2C2592000%5D%22%3B%7D; PHPSESSID=3f8ru5da1c2uu5r8m9crn72bh3; _csrf=7afd0607d40495074e7ab13d6046b9ace03a57e0d866b0cc38b98b9719343faca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22e9wGOy0xE1lZEHJA6jDUG2YMITd8RUk9%22%3B%7D'
+    'HTTP_COOKIE' => 'language=c6364c565cf4dee2a644888baff5cf0f2f210fb917bc8d8c701be93981be1e85a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22fr%22%3B%7D; _identity=bd5314151b4deb45ea86e9eb4dbb526c51ffad9e2d6adcf24e20b9182035c60ea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A50%3A%22%5B1%2C%22ef74d7cc-b662-4f7b-8284-8ac1169b1ff6%22%2C2592000%5D%22%3B%7D; _csrf=9f593f6ba58c96e46408283c5f14a86e5608e52938911ae1f376e052b53bbebea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22qsVrj3nnjBqa1AVUOdKpR805x-_Qxpiv%22%3B%7D; PHPSESSID=m26atdje359mjmv1roh1c38sra'
     'PATH' => 'C:\\Program Files\\ImageMagick-7.0.11-Q16-HDRI;C:\\Program Files (x86)\\ImageMagick-7.0.10-Q16;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Symfony;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Users\\acs\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\acs\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\php;C:\\Users\\acs\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\acs\\AppData\\Roaming\\npm'
     'SystemRoot' => 'C:\\Windows'
     'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
@@ -1457,14 +579,14 @@ $_SERVER = [
     'CONTEXT_DOCUMENT_ROOT' => 'C:/laragon/www/humhub-1.8.1/'
     'SERVER_ADMIN' => 'admin@example.com'
     'SCRIPT_FILENAME' => 'C:/laragon/www/humhub-1.8.1/index.php'
-    'REMOTE_PORT' => '49192'
+    'REMOTE_PORT' => '56241'
     'GATEWAY_INTERFACE' => 'CGI/1.1'
     'SERVER_PROTOCOL' => 'HTTP/1.1'
     'REQUEST_METHOD' => 'GET'
-    'QUERY_STRING' => 'r=mail%2Fmail%2Fget-new-message-count-json'
-    'REQUEST_URI' => '/index.php?r=mail%2Fmail%2Fget-new-message-count-json'
+    'QUERY_STRING' => 'r=live%2Fpoll&last=1618931088'
+    'REQUEST_URI' => '/index.php?r=live%2Fpoll&last=1618931088'
     'SCRIPT_NAME' => '/index.php'
     'PHP_SELF' => '/index.php'
-    'REQUEST_TIME_FLOAT' => 1618825434.168
-    'REQUEST_TIME' => 1618825434
+    'REQUEST_TIME_FLOAT' => 1618931117.11
+    'REQUEST_TIME' => 1618931117
 ]

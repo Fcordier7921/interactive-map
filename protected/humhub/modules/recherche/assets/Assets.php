@@ -34,12 +34,14 @@ class Assets extends AssetBundle
         
     ];
     public $css =[
-        'css/style.css'
+        'css/style.css',
+        
     ];
 
     public $depends =[
         'yii\web\YiiAsset',
         'yii\bootstrap4\BootstrapAsset',
+        
     ];
     
 }
