@@ -10,16 +10,9 @@ namespace humhub\modules\admin\controllers;
 
 use humhub\modules\admin\models\forms\postTagsFrom;
 use app\models\PostTags;
-use humhub\modules\admin\permissions\ManageUsers;
 use Yii;
-use yii\web\HttpException;
-use humhub\compat\HForm;
 use humhub\modules\admin\components\Controller;
-use humhub\modules\user\models\ProfileFieldCategory;
-use humhub\modules\user\models\ProfileField;
-use humhub\modules\user\models\fieldtype\BaseType;
-use yii\base\Model;
-use yii\helpers\Url;
+use yii\data\Pagination;
 
 /**
  * Skill Administration Controller
@@ -49,19 +42,42 @@ class SkillController extends Controller
      */
     public function actionIndex()
     {
+        
+        //ajout d'une compétence
         $model = new postTagsFrom;
-
         if ($model->load(Yii::$app->request->post())) {
             $model->signup();
-            header("Location: http://humhub-1.8.1.test/index.php?r=admin%2Fskill");
+            header("Location: /index.php?r=admin%2Fskill");
             exit;
         }
-        $skill = PostTags::find()->all();
-
+        //affichage des donné avec pagination
+        $query = PostTags::find();
+        $pagination = new Pagination(['totalCount' => $query->count(), 'defaultPageSize' => 7]);
+        
+        $articles = $query->offset($pagination->offset)
+            ->limit($pagination->limit)
+            ->orderBy(['id'=>SORT_DESC])
+            ->all();
+        
         return $this->render('index', [
-            'skills' => $skill,
+            'skills' => $articles,
             'models' => $model,
-
+            'pagination'=>$pagination
         ]);
+    }
+
+
+    public function actionDelete($id)
+    {
+        $skill = PostTags::findOne($id);
+        if (empty($skill)) {
+            return;
+        }
+
+        $skill->delete();
+        if ($skill) {
+            yii::$app->getSession()->setFlash('message', 'Skill suprimer');
+            return $this->redirect(['/admin/skill/index']);
+        }
     }
 }

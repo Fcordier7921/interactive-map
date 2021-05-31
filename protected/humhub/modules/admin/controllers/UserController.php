@@ -217,6 +217,38 @@ class UserController extends Controller
         }
 
         if ($form->submitted('save') && $form->validate()) {
+            if ($user->profile->city != null) {
+
+                $curl = curl_init("http://open.mapquestapi.com/geocoding/v1/address?key=p7SEPkMy7u1mNlD7jnfoU3KtcLKmdlco&location=" . $user->profile->street . ' ' . $user->profile->zip . ' ' . $user->profile->city);
+                curl_setopt($curl, CURLOPT_CAINFO, __DIR__ . DIRECTORY_SEPARATOR . 'cert.cer'); // je n'ai pas utiliser surl_setopt_array car pas pris en compte par le framwerk yii
+                curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+                curl_setopt($curl, CURLOPT_TIMEOUT, 1);
+                $data = curl_exec($curl);
+                if ($data === false) {
+                    var_dump(curl_error($curl));
+                } else {
+                    if (curl_getinfo($curl, CURLINFO_HTTP_CODE) === 200) {
+                        $data = json_decode($data, true);
+                        if (isset($data["results"][0]["locations"][0]["latLng"])) {
+                            
+                            $user->profile->lat = $data["results"][0]["locations"][0]["latLng"]['lat'];
+                            $user->profile->lng = $data["results"][0]["locations"][0]["latLng"]['lng'];
+
+                            $user->profile->save();
+                            // dd($user->profile);
+                        } else {
+                            echo '<h1> un erreur est survenu veuiller contacter le créateur du site.</h1>';
+                        }
+                    }
+                }
+                curl_close($curl);
+            }else
+            {
+                $user->profile->lat= null;
+                $user->profile->lng= null;
+                $user->profile->save();
+            }
+
             if ($canEditAdminFields) {
                 if (!empty($password->newPassword)) {
                     $password->setPassword($password->newPassword);

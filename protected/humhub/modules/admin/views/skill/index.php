@@ -1,8 +1,9 @@
 <?php
 
-
+use humhub\widgets\LinkPager;
 use yii\helpers\Html;
 use humhub\widgets\Tabs;
+use yii\helpers\Url;
 use yii\widgets\ActiveForm;
 
 /* @var $field ProfileField */
@@ -10,16 +11,15 @@ use yii\widgets\ActiveForm;
 
 ?>
 <style>
-
-    label{
+    label {
         margin-right: 2rem;
-        margin-bottom: 1rem!important;
+        margin-bottom: 1rem !important;
     }
-    .check{
+
+    .check {
         display: flex;
         flex-flow: wrap;
     }
-   
 </style>
 <?php $this->beginContent('@admin/views/layouts/main.php') ?>
 <div class="panel panel-default">
@@ -34,29 +34,42 @@ use yii\widgets\ActiveForm;
             if (yii::$app->session->hasFlash('success')) {
                 echo yii::$app->session->getFlash('success');
             } ?>
+
             <?php $form = ActiveForm::begin(); ?>
             <?= $form->field($models, 'skill'); ?>
 
-            
-                <?= Html::submitButton('envoyer', ['class' => 'btn btn-primary']); ?>
-           
+
+            <?= Html::submitButton('envoyer', ['class' => 'btn btn-primary']); ?>
+
             <?php ActiveForm::end(); ?>
             <h4>Les compétences disponibles :</h4>
             <div>
-                <?php if (count($skills) > 0) : ?>
-                    <form class="check">
-                        <?php foreach ($skills as $skill) : ?>
-                            <div>
-                                <input type="checkbox" id="<?php echo $skill->skill; ?>" name="<?php echo $skill->skill; ?>">
-                                <label for="<?php echo $skill->skill; ?>"><?php echo $skill->skill; ?></label>
-                            </div>
-                        <?php endforeach ?>
-                        
-                    </form>
-                    <input class="del" type="submit" value="supprimer">
-                <?php else : ?>
-                    <p>Aucun compétence d'enregistrer</p>
-                <?php endif ?>
+                <table class="table table-hover">
+                   
+                    <tbody>
+
+                        <?php if (count($skills) > 0) : ?>
+                            <?php foreach ($skills as $skill) : ?>
+
+                                <tr class="table-active">
+                                    <th scope="row"><?php echo $skill->skill; ?></th>
+                                    <th><samp><?= Html::a('suprimer', Url::toRoute(['/admin/skill/delete', 'id' => $skill->id]), ['class' => 'btn btn-danger btn-sm']) ?></samp></th>
+
+                                </tr>
+
+                            <?php endforeach; ?>
+                        <?php else : ?>
+                            <tr>
+                                <td>Aucun compétence d'enregistrer</td>
+                            </tr>
+
+                        <?php endif ?>
+                    </tbody>
+
+                </table>
+                <?=  LinkPager::widget([
+                    "pagination" => $pagination,
+                ]); ?>
             </div>
         </div>
     </div>

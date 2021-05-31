@@ -24,7 +24,8 @@ label {
     <?= ($form->field($model, 'tags')->checkboxList($PostTagas, ['multiple' => 'multiple']));  ?>
 
 
-<p>Si vos compétence ne figure pas dans la liste. Veuillez contacter l'administrateur du site.</p>
+<p>Si vos compétence ne figure pas dans la liste. Veuillez contacter l'administrateur du site <button type="button" class="btn btn-primary" data-action-click="ui.modal.load" data-action-click-url="/index.php?r=mail%2Fmail%2Fcreate&userGuid=3ef2d8cf-3184-440d-9d90-c23fc76e6cbf">Ici</button></p>
+
 <?php if (count($languages) > 1) : ?>
     <?= $form->field($model, 'language')->dropDownList($languages, ['data-ui-select2' => '']); ?>
 <?php endif; ?>

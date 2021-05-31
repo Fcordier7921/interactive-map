@@ -3,9 +3,10 @@
 
 namespace myCompany\humhub\modules\recherche\controllers;
 
+use app\models\PostTags;
 use humhub\components\Controller;
 use app\models\User;
-
+use app\models\UserQuery;
 
 class IndexController extends Controller
 {
@@ -19,21 +20,19 @@ class IndexController extends Controller
      */
     public function actionIndex()
     {
-        $queryUser=User::find()->with('profile');
- 
-        $users=$queryUser->all();
+        //renvoyer mes utilisateur
+        $users = User::find()->with('profile')->all();
         
-        
-        // dd($users);
-        
+        //renvoyer le compétence
+        $queryPostTags = PostTags::find()->all();
 
-        
-
+        if (sleep(5)) {
+            header("Location: /index.php?r=recherche%2Findex");
+            exit;
+        }
         return $this->render('index', [
-            'users'=> $users,
-            
+            'users' => $users,
+            'skill' => $queryPostTags
         ]);
     }
-
 }
-

@@ -9,7 +9,7 @@
 namespace humhub\modules\admin\models\forms;
 
 use app\models\PostTags;
-use Yii;
+
 use yii\base\Model;
 
 
@@ -33,7 +33,16 @@ class postTagsFrom extends Model
         ];
     }
 
-    
+     /**
+     * @inheritdoc
+     */
+    public function attributeLabels()
+    {
+        return [
+            'skill' => 'ajouter une compétence :'
+        ];
+    }
+
    /**
     * signs postTags up
     */
@@ -48,7 +57,8 @@ class postTagsFrom extends Model
             
             $skill->save();
             return $skill;
-        }
-        
+        } 
     }
+
+    
 }

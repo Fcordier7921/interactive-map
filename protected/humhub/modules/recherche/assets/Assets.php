@@ -5,14 +5,14 @@ namespace  myCompany\humhub\modules\recherche\assets;
 use yii\web\AssetBundle;
 
 /**
-* AssetsBundles are used to include assets as javascript or css files
-*/
+ * AssetsBundles are used to include assets as javascript or css files
+ */
 class Assets extends AssetBundle
 {
     /**
      * @var string defines the path of your module assets
      */
-    public $sourcePath = '@recherche/resources';
+    public $sourcePath ='@recherche/resources';
     /**
      * var string defines the path of your module assets
      */
@@ -23,25 +23,25 @@ class Assets extends AssetBundle
     public $jsOptions = ['position' => \yii\web\View::POS_END];
 
     /**
-    * @var array change forceCopy to true when testing your js in order to rebuild this assets on every request (otherwise they will be cached)
-    */
+     * @var array change forceCopy to true when testing your js in order to rebuild this assets on every request (otherwise they will be cached)
+     */
     public $publishOptions = [
         'forceCopy' => false
     ];
-
+    public $css = [
+        'css/style.css'
+    ];
     public $js = [
         'js/humhub.recherche.js',
-        
-    ];
-    public $css =[
-        'css/style.css',
-        
-    ];
-
-    public $depends =[
-        'yii\web\YiiAsset',
-        'yii\bootstrap4\BootstrapAsset',
+        'js/vendor.js',
+        'js/app.js',
         
     ];
     
+
+    public $depends = [
+        'yii\web\YiiAsset',
+        'yii\bootstrap\BootstrapAsset'
+
+    ];
 }

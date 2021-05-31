@@ -35,7 +35,8 @@ use Yii;
  * @property string|null $url_flickr
  * @property string|null $url_myspace
  * @property string|null $url_twitter
- * @property int|null $champ
+ * @property float $lat
+ * @property float $lng
  *
  * @property User $user
  */
@@ -55,10 +56,11 @@ class Profile extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['user_id'], 'required'],
-            [['user_id', 'birthday_hide_year', 'champ'], 'integer'],
+            [['user_id', 'lat', 'lng'], 'required'],
+            [['user_id', 'birthday_hide_year'], 'integer'],
             [['birthday'], 'safe'],
             [['about'], 'string'],
+            [['lat', 'lng'], 'number'],
             [['firstname', 'lastname', 'title', 'gender', 'street', 'zip', 'city', 'country', 'state', 'phone_private', 'phone_work', 'mobile', 'fax', 'im_skype', 'im_xmpp', 'url', 'url_facebook', 'url_linkedin', 'url_xing', 'url_youtube', 'url_vimeo', 'url_flickr', 'url_myspace', 'url_twitter'], 'string', 'max' => 255],
             [['user_id'], 'unique'],
             [['user_id'], 'exist', 'skipOnError' => true, 'targetClass' => User::className(), 'targetAttribute' => ['user_id' => 'id']],
@@ -99,7 +101,8 @@ class Profile extends \yii\db\ActiveRecord
             'url_flickr' => 'Url Flickr',
             'url_myspace' => 'Url Myspace',
             'url_twitter' => 'Url Twitter',
-            'champ' => 'Champ',
+            'lat' => 'Lat',
+            'lng' => 'Lng',
         ];
     }
 

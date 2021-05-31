@@ -93,7 +93,7 @@ class AccountController extends BaseAccountController
             if ($user->profile->city != null) {
 
                 $curl = curl_init("http://open.mapquestapi.com/geocoding/v1/address?key=p7SEPkMy7u1mNlD7jnfoU3KtcLKmdlco&location=" . $user->profile->street . ' ' . $user->profile->zip . ' ' . $user->profile->city);
-                curl_setopt($curl, CURLOPT_CAINFO, __DIR__ . DIRECTORY_SEPARATOR . 'cert.cer'); // je n'ai pas utiliser surl_setopt_array caar pas pris en compte par le framwerk yii
+                curl_setopt($curl, CURLOPT_CAINFO, __DIR__ . DIRECTORY_SEPARATOR . 'cert.cer'); // je n'ai pas utiliser surl_setopt_array car pas pris en compte par le framwerk yii
                 curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
                 curl_setopt($curl, CURLOPT_TIMEOUT, 1);
                 $data = curl_exec($curl);
@@ -103,7 +103,7 @@ class AccountController extends BaseAccountController
                     if (curl_getinfo($curl, CURLINFO_HTTP_CODE) === 200) {
                         $data = json_decode($data, true);
                         if (isset($data["results"][0]["locations"][0]["latLng"])) {
-
+                            
                             $user->profile->lat = $data["results"][0]["locations"][0]["latLng"]['lat'];
                             $user->profile->lng = $data["results"][0]["locations"][0]["latLng"]['lng'];
 

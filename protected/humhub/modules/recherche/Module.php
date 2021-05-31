@@ -23,13 +23,7 @@ class Module extends ContentContainerModule
         ];
     }
 
-    /**
-    * @inheritdoc
-    */
-    public function getConfigUrl()
-    {
-        return Url::to(['/recherche/admin']);
-    }
+
 
     /**
     * @inheritdoc

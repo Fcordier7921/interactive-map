@@ -1,7 +1,7 @@
 {
     "id": "recherche",
     "name": "Recherche",
-    "description": "rechercher des membre du fablab prés de chez vous.",
+    "description": "rechercher des membres du fablab prés de chez vous.",
     "keywords": [
     ],
     "version": "0.1",

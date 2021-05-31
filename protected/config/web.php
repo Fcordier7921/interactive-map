@@ -1,6 +1,6 @@
 <?php
 
-require_once(__DIR__.'/functions.php');
+require_once(__DIR__ . '/functions.php');
 /**
  * This file provides to overwrite the default HumHub / Yii configuration by your local Web environments
  * @see http://www.yiiframework.com/doc-2.0/guide-concept-configurations.html
@@ -8,16 +8,22 @@ require_once(__DIR__.'/functions.php');
  * @see http://docs.humhub.org/dev-environment.html
  */
 
-return [
+return 
+[
     'bootstrap' => ['gii'],
-    'modules' => [
-        'gii' => [
+    'modules' => 
+    [
+        'gii' => 
+        [
             'class' => 'yii\gii\Module',
             'allowedIPs' => ['127.0.0.1', '::1'],
-            'generators' => [
-                'module' => [
+            'generators' => 
+            [
+                'module' => 
+                [
                     'class' => 'humhub\modules\devtools\gii\generators\ModuleGenerator',
-                    'templates' => [
+                    'templates' => 
+                    [
                         'humhub' => '@app/modules/devtools/default',
                     ]
                 ]
@@ -25,4 +31,3 @@ return [
         ],
     ],
 ];
-

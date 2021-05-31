@@ -49,7 +49,7 @@ class AccountSettings extends Model
        
         return [
             
-            'tags'=>yii::t('UserModule.account', 'skill'),
+            'tags'=>yii::t('UserModule.account', 'compétence'),
             'language' => Yii::t('UserModule.account', 'Language'),
             'show_introduction_tour' => Yii::t('UserModule.account', 'Hide introduction tour panel on dashboard'),
             'timeZone' => Yii::t('UserModule.account', 'TimeZone'),

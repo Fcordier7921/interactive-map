@@ -48,4 +48,6 @@ class PostTags extends \yii\db\ActiveRecord
     {
         return new PosttagsQuery(get_called_class());
     }
+
+    
 }
